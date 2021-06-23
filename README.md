@@ -1,36 +1,5 @@
 # Sort-Algorithm-Analysis-2021
-```mermaid
-classDiagram
-Sortshow ..> BubbleSort
-Sortshow ..> SelectSort
-Sortshow ..> QuickSort
-BubbleSort ..> Dataset
-SelectSort ..> Dataset
-QuickSort ..> Dataset
 
-class Sortshow{
-	+show()
-}
-class BubbleSort{
-	-Dataset data
-	+originSort()
-	+improvedSort()
-}
-class SelectSort{
-	-Dataset data
-	+originSort()
-	+improvedSort()
-}
-class QuickSort{
-	-Dataset data
-	+originSort()
-	+improvedSort()
-}
-class Dataset{
-	-vector<T> data
-	-int length
-	-iterator begin
-	+show()
-}
-```
+UML Class Diagram
 
+![image](https://user-images.githubusercontent.com/48964589/123144291-1fddb480-d48e-11eb-8d77-1922da2e88bb.png)

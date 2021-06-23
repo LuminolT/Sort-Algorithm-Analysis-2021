@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
@@ -45,6 +46,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
@@ -96,21 +98,6 @@
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
 		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/SortShow.cpp">
-			<Option target="Sort-Algorithm-Analysis-2021"/>
-		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/include/BubbleSort.h">
-			<Option target="Sort-Algorithm-Analysis-2021"/>
-		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/include/Dataset.h">
-			<Option target="Sort-Algorithm-Analysis-2021"/>
-		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/include/QuickSort.h">
-			<Option target="Sort-Algorithm-Analysis-2021"/>
-		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/include/SelectSort.h">
-			<Option target="Sort-Algorithm-Analysis-2021"/>
-		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/include/SortShow.h">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
 		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/CMakeLists.txt">

@@ -1,10 +1,13 @@
 #include <iostream>
-using namespace std;
-const int MAXN = 1e9 + 7;
-
-enum Datatype{INT, DOUBLE, LONG, LL, ULL};
+#include "Dataset.h"
 
 int main(){
-    cout << 1 << '\n';
+    std::cout << 1;
+    Dataset dataa;
+    dataa.setDataSize(10000);
+    dataa.getGaussDistribution();
+    for(int i = 0; i < 10000; ++i){
+        std::cout << dataa.data[i] << '\n';
+    }
     return 0;
 }

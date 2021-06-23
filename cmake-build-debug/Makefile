@@ -141,167 +141,167 @@ Sort-Algorithm-Analysis-2021/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/build
 .PHONY : Sort-Algorithm-Analysis-2021/fast
 
-src/class/BubbleSort.obj: src/class/BubbleSort.cpp.obj
+main.obj: main.cpp.obj
 
-.PHONY : src/class/BubbleSort.obj
-
-# target to build an object file
-src/class/BubbleSort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/BubbleSort.cpp.obj
-.PHONY : src/class/BubbleSort.cpp.obj
-
-src/class/BubbleSort.i: src/class/BubbleSort.cpp.i
-
-.PHONY : src/class/BubbleSort.i
-
-# target to preprocess a source file
-src/class/BubbleSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/BubbleSort.cpp.i
-.PHONY : src/class/BubbleSort.cpp.i
-
-src/class/BubbleSort.s: src/class/BubbleSort.cpp.s
-
-.PHONY : src/class/BubbleSort.s
-
-# target to generate assembly for a file
-src/class/BubbleSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/BubbleSort.cpp.s
-.PHONY : src/class/BubbleSort.cpp.s
-
-src/class/Dataset.obj: src/class/Dataset.cpp.obj
-
-.PHONY : src/class/Dataset.obj
+.PHONY : main.obj
 
 # target to build an object file
-src/class/Dataset.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/Dataset.cpp.obj
-.PHONY : src/class/Dataset.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-src/class/Dataset.i: src/class/Dataset.cpp.i
+main.i: main.cpp.i
 
-.PHONY : src/class/Dataset.i
+.PHONY : main.i
 
 # target to preprocess a source file
-src/class/Dataset.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/Dataset.cpp.i
-.PHONY : src/class/Dataset.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-src/class/Dataset.s: src/class/Dataset.cpp.s
+main.s: main.cpp.s
 
-.PHONY : src/class/Dataset.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-src/class/Dataset.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/Dataset.cpp.s
-.PHONY : src/class/Dataset.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/main.cpp.s
+.PHONY : main.cpp.s
 
-src/class/QuickSort.obj: src/class/QuickSort.cpp.obj
+src/BubbleSort.obj: src/BubbleSort.cpp.obj
 
-.PHONY : src/class/QuickSort.obj
+.PHONY : src/BubbleSort.obj
 
 # target to build an object file
-src/class/QuickSort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/QuickSort.cpp.obj
-.PHONY : src/class/QuickSort.cpp.obj
+src/BubbleSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/BubbleSort.cpp.obj
+.PHONY : src/BubbleSort.cpp.obj
 
-src/class/QuickSort.i: src/class/QuickSort.cpp.i
+src/BubbleSort.i: src/BubbleSort.cpp.i
 
-.PHONY : src/class/QuickSort.i
+.PHONY : src/BubbleSort.i
 
 # target to preprocess a source file
-src/class/QuickSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/QuickSort.cpp.i
-.PHONY : src/class/QuickSort.cpp.i
+src/BubbleSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/BubbleSort.cpp.i
+.PHONY : src/BubbleSort.cpp.i
 
-src/class/QuickSort.s: src/class/QuickSort.cpp.s
+src/BubbleSort.s: src/BubbleSort.cpp.s
 
-.PHONY : src/class/QuickSort.s
+.PHONY : src/BubbleSort.s
 
 # target to generate assembly for a file
-src/class/QuickSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/QuickSort.cpp.s
-.PHONY : src/class/QuickSort.cpp.s
+src/BubbleSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/BubbleSort.cpp.s
+.PHONY : src/BubbleSort.cpp.s
 
-src/class/SelectSort.obj: src/class/SelectSort.cpp.obj
+src/Dataset.obj: src/Dataset.cpp.obj
 
-.PHONY : src/class/SelectSort.obj
+.PHONY : src/Dataset.obj
 
 # target to build an object file
-src/class/SelectSort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/SelectSort.cpp.obj
-.PHONY : src/class/SelectSort.cpp.obj
+src/Dataset.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/Dataset.cpp.obj
+.PHONY : src/Dataset.cpp.obj
 
-src/class/SelectSort.i: src/class/SelectSort.cpp.i
+src/Dataset.i: src/Dataset.cpp.i
 
-.PHONY : src/class/SelectSort.i
+.PHONY : src/Dataset.i
 
 # target to preprocess a source file
-src/class/SelectSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/SelectSort.cpp.i
-.PHONY : src/class/SelectSort.cpp.i
+src/Dataset.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/Dataset.cpp.i
+.PHONY : src/Dataset.cpp.i
 
-src/class/SelectSort.s: src/class/SelectSort.cpp.s
+src/Dataset.s: src/Dataset.cpp.s
 
-.PHONY : src/class/SelectSort.s
+.PHONY : src/Dataset.s
 
 # target to generate assembly for a file
-src/class/SelectSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/SelectSort.cpp.s
-.PHONY : src/class/SelectSort.cpp.s
+src/Dataset.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/Dataset.cpp.s
+.PHONY : src/Dataset.cpp.s
 
-src/class/SortShow.obj: src/class/SortShow.cpp.obj
+src/QuickSort.obj: src/QuickSort.cpp.obj
 
-.PHONY : src/class/SortShow.obj
+.PHONY : src/QuickSort.obj
 
 # target to build an object file
-src/class/SortShow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/SortShow.cpp.obj
-.PHONY : src/class/SortShow.cpp.obj
+src/QuickSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/QuickSort.cpp.obj
+.PHONY : src/QuickSort.cpp.obj
 
-src/class/SortShow.i: src/class/SortShow.cpp.i
+src/QuickSort.i: src/QuickSort.cpp.i
 
-.PHONY : src/class/SortShow.i
+.PHONY : src/QuickSort.i
 
 # target to preprocess a source file
-src/class/SortShow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/SortShow.cpp.i
-.PHONY : src/class/SortShow.cpp.i
+src/QuickSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/QuickSort.cpp.i
+.PHONY : src/QuickSort.cpp.i
 
-src/class/SortShow.s: src/class/SortShow.cpp.s
+src/QuickSort.s: src/QuickSort.cpp.s
 
-.PHONY : src/class/SortShow.s
+.PHONY : src/QuickSort.s
 
 # target to generate assembly for a file
-src/class/SortShow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/SortShow.cpp.s
-.PHONY : src/class/SortShow.cpp.s
+src/QuickSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/QuickSort.cpp.s
+.PHONY : src/QuickSort.cpp.s
 
-src/main.obj: src/main.cpp.obj
+src/SelectSort.obj: src/SelectSort.cpp.obj
 
-.PHONY : src/main.obj
+.PHONY : src/SelectSort.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/SelectSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/SelectSort.cpp.obj
+.PHONY : src/SelectSort.cpp.obj
 
-src/main.i: src/main.cpp.i
+src/SelectSort.i: src/SelectSort.cpp.i
 
-.PHONY : src/main.i
+.PHONY : src/SelectSort.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/SelectSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/SelectSort.cpp.i
+.PHONY : src/SelectSort.cpp.i
 
-src/main.s: src/main.cpp.s
+src/SelectSort.s: src/SelectSort.cpp.s
 
-.PHONY : src/main.s
+.PHONY : src/SelectSort.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/SelectSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/SelectSort.cpp.s
+.PHONY : src/SelectSort.cpp.s
+
+src/SortShow.obj: src/SortShow.cpp.obj
+
+.PHONY : src/SortShow.obj
+
+# target to build an object file
+src/SortShow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/SortShow.cpp.obj
+.PHONY : src/SortShow.cpp.obj
+
+src/SortShow.i: src/SortShow.cpp.i
+
+.PHONY : src/SortShow.i
+
+# target to preprocess a source file
+src/SortShow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/SortShow.cpp.i
+.PHONY : src/SortShow.cpp.i
+
+src/SortShow.s: src/SortShow.cpp.s
+
+.PHONY : src/SortShow.s
+
+# target to generate assembly for a file
+src/SortShow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/SortShow.cpp.s
+.PHONY : src/SortShow.cpp.s
 
 # Help Target
 help:
@@ -312,24 +312,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Sort-Algorithm-Analysis-2021
-	@echo ... src/class/BubbleSort.obj
-	@echo ... src/class/BubbleSort.i
-	@echo ... src/class/BubbleSort.s
-	@echo ... src/class/Dataset.obj
-	@echo ... src/class/Dataset.i
-	@echo ... src/class/Dataset.s
-	@echo ... src/class/QuickSort.obj
-	@echo ... src/class/QuickSort.i
-	@echo ... src/class/QuickSort.s
-	@echo ... src/class/SelectSort.obj
-	@echo ... src/class/SelectSort.i
-	@echo ... src/class/SelectSort.s
-	@echo ... src/class/SortShow.obj
-	@echo ... src/class/SortShow.i
-	@echo ... src/class/SortShow.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
+	@echo ... src/BubbleSort.obj
+	@echo ... src/BubbleSort.i
+	@echo ... src/BubbleSort.s
+	@echo ... src/Dataset.obj
+	@echo ... src/Dataset.i
+	@echo ... src/Dataset.s
+	@echo ... src/QuickSort.obj
+	@echo ... src/QuickSort.i
+	@echo ... src/QuickSort.s
+	@echo ... src/SelectSort.obj
+	@echo ... src/SelectSort.i
+	@echo ... src/SelectSort.s
+	@echo ... src/SortShow.obj
+	@echo ... src/SortShow.i
+	@echo ... src/SortShow.s
 .PHONY : help
 
 

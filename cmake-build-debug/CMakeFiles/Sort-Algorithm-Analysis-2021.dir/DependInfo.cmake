@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/class/BubbleSort.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/BubbleSort.cpp.obj"
-  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/class/Dataset.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/Dataset.cpp.obj"
-  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/class/QuickSort.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/QuickSort.cpp.obj"
-  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/class/SelectSort.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/SelectSort.cpp.obj"
-  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/class/SortShow.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/class/SortShow.cpp.obj"
-  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/main.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/main.cpp.obj"
+  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/main.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/main.cpp.obj"
+  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/BubbleSort.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/BubbleSort.cpp.obj"
+  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/Dataset.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/Dataset.cpp.obj"
+  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/QuickSort.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/QuickSort.cpp.obj"
+  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/SelectSort.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/SelectSort.cpp.obj"
+  "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/SortShow.cpp" "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/SortShow.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

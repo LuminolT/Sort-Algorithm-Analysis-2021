@@ -80,37 +80,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/class/BubbleSort.cpp">
+		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/main.cpp">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/class/Dataset.cpp">
+		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/BubbleSort.cpp">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/class/QuickSort.cpp">
+		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/Dataset.cpp">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/class/SelectSort.cpp">
+		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/QuickSort.cpp">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/class/SortShow.cpp">
+		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/SelectSort.cpp">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/header/BubbleSort.h">
+		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/SortShow.cpp">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/header/Dataset.h">
+		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/include/BubbleSort.h">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/header/QuickSort.h">
+		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/include/Dataset.h">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/header/SelectSort.h">
+		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/include/QuickSort.h">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/header/SortShow.h">
+		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/include/SelectSort.h">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
-		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/main.cpp">
+		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/include/SortShow.h">
 			<Option target="Sort-Algorithm-Analysis-2021"/>
 		</Unit>
 		<Unit filename="C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/CMakeLists.txt">

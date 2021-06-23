@@ -9,7 +9,7 @@
 #ifndef SORT_ALGORITHM_ANALYSIS_2021_DATASET_H
 #define SORT_ALGORITHM_ANALYSIS_2021_DATASET_H
 
-template<typename T>
+template<typename T>;
 
 class Dataset {
 public:

@@ -13,37 +13,50 @@
 #include <variant>
 #include "Student.h"
 
-const unsigned long long MAXN = 1e9+7;
-
 class Dataset {
 public:
+    Dataset();
+    ~Dataset();
     void setDataSize(int size);
-    template<typename T> void getUniformRealDistribution(const T &x) {
-        std::random_device rd;                  //Will be used to obtain a seed for the random number engine
-        std::mt19937 gen(rd());                 //Standard mersenne_twister_engine seeded with rd()
-        std::uniform_real_distribution<> dis(54.0, 90.0);
-        for (int n = 0; n < this->size; ++n) {
-            this->data.push_back((T)(dis(gen)));
-        }
-    }
-    // ref: https://en.cppreference.com/w/cpp/numeric/random/uniform_real_distribution
-
-    template<typename T> void getGaussDistribution(const T &x) {
-        std::vector<T> temp;
-        std::random_device rd{};
-        std::mt19937 gen{rd()};
-        std::normal_distribution<> dis{72.0,6.0};
-        for (int n = 0; n < this->size; ++n) {
-            this->data.push_back((T)(dis(gen)));
-        }
-    }
-    // ref: https://en.cppreference.com/w/cpp/numeric/random/normal_distribution
-
-
+    template<typename T> void getUniformRealDistribution(const T &x);
+    template<typename T> void getGaussDistribution(const T &x);
+    template<typename T> void getUpperDistribution(const T &x);
+    template<typename T> void getLowerDistribution(const T &x);
     std::vector<std::variant<int, double>> data;
-//    std::vector<double> dataaa;
 private:
     int size;
 };
+
+/*
+ * ref: https://en.cppreference.com/w/cpp/numeric/random/uniform_real_distribution
+ * ref: https://en.cppreference.com/w/cpp/numeric/random/normal_distribution
+ */
+
+
+template<typename T> void Dataset::getUniformRealDistribution(const T &x) {
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_real_distribution<> dis(54.0, 90.0);
+    for (int n = 0; n < this->size; ++n)
+        this->data.push_back((T)(dis(gen)));
+}
+
+template<typename T> void Dataset::getGaussDistribution(const T &x) {
+    std::random_device rd{};
+    std::mt19937 gen{rd()};
+    std::normal_distribution<> dis{72.0,6.0};
+    for (int n = 0; n < this->size; ++n)
+        this->data.push_back((T)(dis(gen)));
+}
+
+template<typename T> void Dataset::getUpperDistribution(const T &x){
+    for(T i = 0; i < this->size; ++i)
+        this->data.push_back(i);
+}
+
+template<typename T> void Dataset::getLowerDistribution(const T &x){
+    for(T i = this->size - 1; i >= 0; --i)
+        this->data.push_back(i);
+}
 
 #endif //SORT_ALGORITHM_ANALYSIS_2021_DATASET_H

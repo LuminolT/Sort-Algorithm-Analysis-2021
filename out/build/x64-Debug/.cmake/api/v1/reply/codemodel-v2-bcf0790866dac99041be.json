@@ -1,0 +1,86 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Sort-Algorithm-Analysis-2021",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Sort::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Sort-Debug-4e8e5869b3923d46966c.json",
+					"name" : "Sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sort-Algorithm-Analysis-2021::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sort-Algorithm-Analysis-2021-Debug-2c1d4b28dca992a2402a.json",
+					"name" : "Sort-Algorithm-Analysis-2021",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Tony/source/repos/LuminolT/Sort-Algorithm-Analysis-2021/out/build/x64-Debug",
+		"source" : "C:/Users/Tony/source/repos/LuminolT/Sort-Algorithm-Analysis-2021"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

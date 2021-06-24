@@ -1,0 +1,13 @@
+# ninja log v5
+34	236	6462546053127283	src/CMakeFiles/Sort.dir/SelectSort.cpp.obj	49d02e7ffe696a35
+15	237	6462546053127283	src/CMakeFiles/Sort.dir/QuickSort.cpp.obj	9f393c7f3a7bf7a5
+42	237	6462546053127283	src/CMakeFiles/Sort.dir/SortShow.cpp.obj	90cda8a5b6bd190c
+23	573	6462546056508246	src/CMakeFiles/Sort.dir/Dataset.cpp.obj	8d2ca7eb1675153b
+8	574	6462546056508246	src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj	661af360b3e79f68
+1	1082	6462546056857313	CMakeFiles/Sort-Algorithm-Analysis-2021.dir/main.cpp.obj	37481e49df42ac33
+574	2106	6462546056996938	../../../lib/Sort.lib	11ebafd204c17af5
+16	583	6462547816617814	src/CMakeFiles/Sort.dir/Dataset.cpp.obj	8d2ca7eb1675153b
+9	584	6462547816617814	src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj	661af360b3e79f68
+1	595	6462547816727504	CMakeFiles/Sort-Algorithm-Analysis-2021.dir/main.cpp.obj	37481e49df42ac33
+584	629	6462547817086541	../../../lib/Sort.lib	11ebafd204c17af5
+629	885	6462547819360469	../../../bin/Sort-Algorithm-Analysis-2021.exe	bfe5c0a14ac6be92

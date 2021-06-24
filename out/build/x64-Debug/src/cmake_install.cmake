@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Luxf1y/source/repos/Sort-Algorithm-Analysis-2021+1/src
+# Install script for directory: C:/Users/Tony/source/repos/LuminolT/Sort-Algorithm-Analysis-2021/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Luxf1y/Source/Repos/Sort-Algorithm-Analysis-2021+1/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Tony/Source/Repos/LuminolT/Sort-Algorithm-Analysis-2021/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

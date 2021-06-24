@@ -8,6 +8,7 @@ void Dataset::setDataSize(int size) {
     this->size = size;
 }
 
+// Note|Template should be defined in header file
 
 
 

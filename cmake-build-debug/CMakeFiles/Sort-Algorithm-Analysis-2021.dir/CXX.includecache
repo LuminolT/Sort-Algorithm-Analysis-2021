@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 ../include/Dataset.h
+iostream
+-
+string
+-
 vector
 -
 map
@@ -15,6 +19,12 @@ random
 -
 cmath
 -
+variant
+-
+Student.h
+../include/Student.h
+
+../include/Student.h
 
 C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/main.cpp
 iostream

@@ -3,9 +3,11 @@
 
 src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj: ../include/BubbleSort.h
 src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj: ../include/Dataset.h
+src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj: ../include/Student.h
 src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj: ../src/BubbleSort.cpp
 
 src/CMakeFiles/Sort.dir/Dataset.cpp.obj: ../include/Dataset.h
+src/CMakeFiles/Sort.dir/Dataset.cpp.obj: ../include/Student.h
 src/CMakeFiles/Sort.dir/Dataset.cpp.obj: ../src/Dataset.cpp
 
 src/CMakeFiles/Sort.dir/QuickSort.cpp.obj: ../include/QuickSort.h

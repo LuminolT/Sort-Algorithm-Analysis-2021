@@ -4,9 +4,11 @@
 src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj
  ../include/BubbleSort.h
  ../include/Dataset.h
+ ../include/Student.h
  C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/BubbleSort.cpp
 src/CMakeFiles/Sort.dir/Dataset.cpp.obj
  ../include/Dataset.h
+ ../include/Student.h
  C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/Dataset.cpp
 src/CMakeFiles/Sort.dir/QuickSort.cpp.obj
  ../include/QuickSort.h

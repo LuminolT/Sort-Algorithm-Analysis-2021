@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\include",
+    "\\src"
   ],
-  "SelectedNode": "\\C:\\Users\\Luxf1y\\Source\\Repos\\Sort-Algorithm-Analysis-2021+1",
+  "SelectedNode": "\\include\\QuickSort.h",
   "PreviewInSolutionExplorer": false
 }

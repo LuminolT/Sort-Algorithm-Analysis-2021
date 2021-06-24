@@ -72,32 +72,52 @@ CMAKE_BINARY_DIR = C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cm
 
 # The main recursive "all" target.
 all: CMakeFiles/Sort-Algorithm-Analysis-2021.dir/all
+all: src/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Sort-Algorithm-Analysis-2021.dir/clean
+clean: src/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/CMakeFiles/Sort.dir/all
+
+.PHONY : src/all
+
+# Recursive "preinstall" directory target.
+src/preinstall:
+
+.PHONY : src/preinstall
+
+# Recursive "clean" directory target.
+src/clean: src/CMakeFiles/Sort.dir/clean
+
+.PHONY : src/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Sort-Algorithm-Analysis-2021.dir
 
 # All Build rule for target.
-CMakeFiles/Sort-Algorithm-Analysis-2021.dir/all:
+CMakeFiles/Sort-Algorithm-Analysis-2021.dir/all: src/CMakeFiles/Sort.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Sort-Algorithm-Analysis-2021"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Sort-Algorithm-Analysis-2021"
 .PHONY : CMakeFiles/Sort-Algorithm-Analysis-2021.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Sort-Algorithm-Analysis-2021.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Sort-Algorithm-Analysis-2021.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Sort-Algorithm-Analysis-2021.dir/rule
@@ -111,6 +131,33 @@ Sort-Algorithm-Analysis-2021: CMakeFiles/Sort-Algorithm-Analysis-2021.dir/rule
 CMakeFiles/Sort-Algorithm-Analysis-2021.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/clean
 .PHONY : CMakeFiles/Sort-Algorithm-Analysis-2021.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/Sort.dir
+
+# All Build rule for target.
+src/CMakeFiles/Sort.dir/all:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/depend
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Sort"
+.PHONY : src/CMakeFiles/Sort.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/Sort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/Sort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 0
+.PHONY : src/CMakeFiles/Sort.dir/rule
+
+# Convenience name for target.
+Sort: src/CMakeFiles/Sort.dir/rule
+
+.PHONY : Sort
+
+# clean rule for target.
+src/CMakeFiles/Sort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/clean
+.PHONY : src/CMakeFiles/Sort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

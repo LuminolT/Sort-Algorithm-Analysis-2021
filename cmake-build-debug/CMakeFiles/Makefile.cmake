@@ -36,6 +36,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeSystem.cmake"
+  "../src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -47,9 +48,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Sort-Algorithm-Analysis-2021.dir/DependInfo.cmake"
+  "src/CMakeFiles/Sort.dir/DependInfo.cmake"
   )

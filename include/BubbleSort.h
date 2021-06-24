@@ -5,6 +5,7 @@
 #ifndef SORT_ALGORITHM_ANALYSIS_2021_BUBBLESORT_H
 #define SORT_ALGORITHM_ANALYSIS_2021_BUBBLESORT_H
 
+#include "Dataset.h"
 
 class BubbleSort {
 public:

@@ -1,13 +1,8 @@
 file(REMOVE_RECURSE
+  "../bin/Sort-Algorithm-Analysis-2021.exe"
+  "../bin/Sort-Algorithm-Analysis-2021.exe.manifest"
+  "../bin/Sort-Algorithm-Analysis-2021.pdb"
   "CMakeFiles/Sort-Algorithm-Analysis-2021.dir/main.cpp.obj"
-  "CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/BubbleSort.cpp.obj"
-  "CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/Dataset.cpp.obj"
-  "CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/QuickSort.cpp.obj"
-  "CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/SelectSort.cpp.obj"
-  "CMakeFiles/Sort-Algorithm-Analysis-2021.dir/src/SortShow.cpp.obj"
-  "Sort-Algorithm-Analysis-2021.exe"
-  "Sort-Algorithm-Analysis-2021.exe.manifest"
-  "Sort-Algorithm-Analysis-2021.pdb"
   "libSort-Algorithm-Analysis-2021.dll.a"
 )
 

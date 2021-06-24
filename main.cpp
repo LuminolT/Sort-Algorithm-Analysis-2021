@@ -2,7 +2,6 @@
 #include "Dataset.h"
 
 int main(){
-    std::cout << 1;
     Dataset dataa;
     dataa.setDataSize(10000);
     dataa.getGaussDistribution();

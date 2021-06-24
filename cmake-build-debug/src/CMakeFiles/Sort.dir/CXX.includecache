@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Dataset.h
+vector
+-
+map
+-
+random
+-
+cmath
+-
+
+C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/Dataset.cpp
+Dataset.h
+C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/Dataset.h
+

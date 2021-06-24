@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc ..\..\lib\libSort.a CMakeFiles/Sort.dir/BubbleSort.cpp.obj CMakeFiles/Sort.dir/Dataset.cpp.obj CMakeFiles/Sort.dir/QuickSort.cpp.obj CMakeFiles/Sort.dir/SelectSort.cpp.obj CMakeFiles/Sort.dir/SortShow.cpp.obj
+C:\MinGW\bin\ranlib.exe ..\..\lib\libSort.a

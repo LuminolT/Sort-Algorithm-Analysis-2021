@@ -8,14 +8,19 @@
 #include <map>
 #include <random>
 #include <cmath>
+#include <variant>
+#include "Student.h"
+
+const unsigned long long MAXN = 1e9+7;
+std::variant<std::vector<int>, std::vector<double>, std::vector<Student>, std::vector<std::string>> var;
 
 class Dataset {
 public:
     void setDataSize(int size);
     void getGaussDistribution();        // ref: https://en.cppreference.com/w/cpp/numeric/random/normal_distribution
     void getUniformRealDistribution();  // ref: https://en.cppreference.com/w/cpp/numeric/random/uniform_real_distribution
-    std::vector<double> data;
 private:
+    std::vector<double> data;
     int size;
 };
 

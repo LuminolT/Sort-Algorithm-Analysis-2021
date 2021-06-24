@@ -4,7 +4,7 @@
 int main(){
     Dataset dataa;
     dataa.setDataSize(10000);
-    dataa.getGaussDistribution();
+    dataa.getUniformRealDistribution();
     for(int i = 0; i < 10000; ++i){
         std::cout << dataa.data[i] << '\n';
     }

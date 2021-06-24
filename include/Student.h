@@ -1,0 +1,12 @@
+//
+// Created by admin on 2021/6/24.
+//
+
+#ifndef SORT_ALGORITHM_ANALYSIS_2021_STUDENT_H
+#define SORT_ALGORITHM_ANALYSIS_2021_STUDENT_H
+
+struct Student{
+
+};
+
+#endif //SORT_ALGORITHM_ANALYSIS_2021_STUDENT_H

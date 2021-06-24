@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/Sort-Algorithm-Analysis-2021.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -std=gnu++14
+CXX_FLAGS = -g -std=gnu++17
 

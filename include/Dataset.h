@@ -15,8 +15,6 @@
 
 class Dataset {
 public:
-    Dataset();
-    ~Dataset();
     void setDataSize(int size);
     template<typename T> void getUniformRealDistribution(const T &x);
     template<typename T> void getGaussDistribution(const T &x);

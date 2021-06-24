@@ -1,0 +1,6 @@
+C:/Users/Luxf1y/source/repos/Sort-Algorithm-Analysis-2021+1/out/build/x64-Debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir
+C:/Users/Luxf1y/source/repos/Sort-Algorithm-Analysis-2021+1/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Luxf1y/source/repos/Sort-Algorithm-Analysis-2021+1/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Luxf1y/source/repos/Sort-Algorithm-Analysis-2021+1/out/build/x64-Debug/src/CMakeFiles/Sort.dir
+C:/Users/Luxf1y/source/repos/Sort-Algorithm-Analysis-2021+1/out/build/x64-Debug/src/CMakeFiles/edit_cache.dir
+C:/Users/Luxf1y/source/repos/Sort-Algorithm-Analysis-2021+1/out/build/x64-Debug/src/CMakeFiles/rebuild_cache.dir

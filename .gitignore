@@ -1,5 +1,5 @@
 bin/
-cmake-building-debug
+cmake-building-debug/
 # Default ignored files
 .idea/shelf/
 .idea/workspace.xml

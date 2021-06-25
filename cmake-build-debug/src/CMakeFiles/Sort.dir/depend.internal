@@ -5,17 +5,17 @@ src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj
  ../include/BubbleSort.h
  ../include/Dataset.h
  ../include/Student.h
- C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/BubbleSort.cpp
+ C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/BubbleSort.cpp
 src/CMakeFiles/Sort.dir/Dataset.cpp.obj
  ../include/Dataset.h
  ../include/Student.h
- C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/Dataset.cpp
+ C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/Dataset.cpp
 src/CMakeFiles/Sort.dir/QuickSort.cpp.obj
  ../include/QuickSort.h
- C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/QuickSort.cpp
+ C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/QuickSort.cpp
 src/CMakeFiles/Sort.dir/SelectSort.cpp.obj
  ../include/SelectSort.h
- C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/SelectSort.cpp
+ C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/SelectSort.cpp
 src/CMakeFiles/Sort.dir/SortShow.cpp.obj
  ../include/SortShow.h
- C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/SortShow.cpp
+ C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/SortShow.cpp

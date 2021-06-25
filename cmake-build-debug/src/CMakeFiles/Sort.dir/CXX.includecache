@@ -28,13 +28,31 @@ variant
 Student.h
 ../include/Student.h
 
+../include/QuickSort.h
+
+../include/SelectSort.h
+
+../include/SortShow.h
+
 ../include/Student.h
 
-C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/BubbleSort.cpp
+C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/BubbleSort.cpp
 BubbleSort.h
-C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/BubbleSort.h
+C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/BubbleSort.h
 
-C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/Dataset.cpp
+C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/Dataset.cpp
 Dataset.h
-C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src/Dataset.h
+C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/Dataset.h
+
+C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/QuickSort.cpp
+QuickSort.h
+C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/QuickSort.h
+
+C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/SelectSort.cpp
+SelectSort.h
+C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/SelectSort.h
+
+C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/SortShow.cpp
+SortShow.h
+C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src/SortShow.h
 

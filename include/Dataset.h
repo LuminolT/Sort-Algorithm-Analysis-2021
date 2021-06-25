@@ -20,8 +20,10 @@ public:
     template<typename T> void getGaussDistribution(const T &x);
     template<typename T> void getUpperDistribution(const T &x);
     template<typename T> void getLowerDistribution(const T &x);
-    std::vector<std::variant<int, double>> data;
+    int getSize();
+    std::vector<std::variant<int,double>> getData();
 private:
+    std::vector<std::variant<int, double>> data;
     int size;
 };
 

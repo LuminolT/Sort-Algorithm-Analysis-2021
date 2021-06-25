@@ -8,6 +8,14 @@ void Dataset::setDataSize(int size) {
     this->size = size;
 }
 
+int Dataset::getSize(){
+    return this->size;
+}
+
+std::vector<std::variant<int,double>>  Dataset::getData(){
+    return this->data;
+}
+
 // Note|Template should be defined in header file
 
 

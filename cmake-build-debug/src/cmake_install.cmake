@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/src
+# Install script for directory: C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

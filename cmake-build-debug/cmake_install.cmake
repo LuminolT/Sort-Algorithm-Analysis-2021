@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021
+# Install script for directory: C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/src/cmake_install.cmake")
+  include("C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/cmake-build-debug/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/ASUS/CLionProjects/Sort-Algorithm-Analysis-2021/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

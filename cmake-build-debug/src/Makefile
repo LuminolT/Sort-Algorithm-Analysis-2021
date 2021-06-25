@@ -66,10 +66,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021
+CMAKE_SOURCE_DIR = C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src\\CMakeFiles\progress.marks
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src\\CMakeFiles\progress.marks
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/clean
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,22 +115,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Sort.dir/rule:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/Sort.dir/rule
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/Sort.dir/rule
 .PHONY : src/CMakeFiles/Sort.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ Sort: src/CMakeFiles/Sort.dir/rule
 
 # fast build rule for target.
 Sort/fast:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/build
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/build
 .PHONY : Sort/fast
 
 BubbleSort.obj: BubbleSort.cpp.obj
@@ -149,7 +149,7 @@ BubbleSort.obj: BubbleSort.cpp.obj
 
 # target to build an object file
 BubbleSort.cpp.obj:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj
 .PHONY : BubbleSort.cpp.obj
 
 BubbleSort.i: BubbleSort.cpp.i
@@ -158,7 +158,7 @@ BubbleSort.i: BubbleSort.cpp.i
 
 # target to preprocess a source file
 BubbleSort.cpp.i:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/BubbleSort.cpp.i
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/BubbleSort.cpp.i
 .PHONY : BubbleSort.cpp.i
 
 BubbleSort.s: BubbleSort.cpp.s
@@ -167,7 +167,7 @@ BubbleSort.s: BubbleSort.cpp.s
 
 # target to generate assembly for a file
 BubbleSort.cpp.s:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/BubbleSort.cpp.s
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/BubbleSort.cpp.s
 .PHONY : BubbleSort.cpp.s
 
 Dataset.obj: Dataset.cpp.obj
@@ -176,7 +176,7 @@ Dataset.obj: Dataset.cpp.obj
 
 # target to build an object file
 Dataset.cpp.obj:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/Dataset.cpp.obj
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/Dataset.cpp.obj
 .PHONY : Dataset.cpp.obj
 
 Dataset.i: Dataset.cpp.i
@@ -185,7 +185,7 @@ Dataset.i: Dataset.cpp.i
 
 # target to preprocess a source file
 Dataset.cpp.i:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/Dataset.cpp.i
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/Dataset.cpp.i
 .PHONY : Dataset.cpp.i
 
 Dataset.s: Dataset.cpp.s
@@ -194,7 +194,7 @@ Dataset.s: Dataset.cpp.s
 
 # target to generate assembly for a file
 Dataset.cpp.s:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/Dataset.cpp.s
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/Dataset.cpp.s
 .PHONY : Dataset.cpp.s
 
 QuickSort.obj: QuickSort.cpp.obj
@@ -203,7 +203,7 @@ QuickSort.obj: QuickSort.cpp.obj
 
 # target to build an object file
 QuickSort.cpp.obj:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/QuickSort.cpp.obj
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/QuickSort.cpp.obj
 .PHONY : QuickSort.cpp.obj
 
 QuickSort.i: QuickSort.cpp.i
@@ -212,7 +212,7 @@ QuickSort.i: QuickSort.cpp.i
 
 # target to preprocess a source file
 QuickSort.cpp.i:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/QuickSort.cpp.i
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/QuickSort.cpp.i
 .PHONY : QuickSort.cpp.i
 
 QuickSort.s: QuickSort.cpp.s
@@ -221,7 +221,7 @@ QuickSort.s: QuickSort.cpp.s
 
 # target to generate assembly for a file
 QuickSort.cpp.s:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/QuickSort.cpp.s
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/QuickSort.cpp.s
 .PHONY : QuickSort.cpp.s
 
 SelectSort.obj: SelectSort.cpp.obj
@@ -230,7 +230,7 @@ SelectSort.obj: SelectSort.cpp.obj
 
 # target to build an object file
 SelectSort.cpp.obj:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SelectSort.cpp.obj
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SelectSort.cpp.obj
 .PHONY : SelectSort.cpp.obj
 
 SelectSort.i: SelectSort.cpp.i
@@ -239,7 +239,7 @@ SelectSort.i: SelectSort.cpp.i
 
 # target to preprocess a source file
 SelectSort.cpp.i:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SelectSort.cpp.i
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SelectSort.cpp.i
 .PHONY : SelectSort.cpp.i
 
 SelectSort.s: SelectSort.cpp.s
@@ -248,7 +248,7 @@ SelectSort.s: SelectSort.cpp.s
 
 # target to generate assembly for a file
 SelectSort.cpp.s:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SelectSort.cpp.s
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SelectSort.cpp.s
 .PHONY : SelectSort.cpp.s
 
 SortShow.obj: SortShow.cpp.obj
@@ -257,7 +257,7 @@ SortShow.obj: SortShow.cpp.obj
 
 # target to build an object file
 SortShow.cpp.obj:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SortShow.cpp.obj
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SortShow.cpp.obj
 .PHONY : SortShow.cpp.obj
 
 SortShow.i: SortShow.cpp.i
@@ -266,7 +266,7 @@ SortShow.i: SortShow.cpp.i
 
 # target to preprocess a source file
 SortShow.cpp.i:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SortShow.cpp.i
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SortShow.cpp.i
 .PHONY : SortShow.cpp.i
 
 SortShow.s: SortShow.cpp.s
@@ -275,7 +275,7 @@ SortShow.s: SortShow.cpp.s
 
 # target to generate assembly for a file
 SortShow.cpp.s:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SortShow.cpp.s
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/SortShow.cpp.s
 .PHONY : SortShow.cpp.s
 
 # Help Target
@@ -313,6 +313,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

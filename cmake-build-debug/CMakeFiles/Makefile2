@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021
+CMAKE_SOURCE_DIR = C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -112,14 +112,14 @@ src/clean: src/CMakeFiles/Sort.dir/clean
 CMakeFiles/Sort-Algorithm-Analysis-2021.dir/all: src/CMakeFiles/Sort.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort-Algorithm-Analysis-2021.dir\build.make CMakeFiles/Sort-Algorithm-Analysis-2021.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Sort-Algorithm-Analysis-2021"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Sort-Algorithm-Analysis-2021"
 .PHONY : CMakeFiles/Sort-Algorithm-Analysis-2021.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Sort-Algorithm-Analysis-2021.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Sort-Algorithm-Analysis-2021.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Sort-Algorithm-Analysis-2021.dir/rule
 
 # Convenience name for target.
@@ -139,14 +139,14 @@ CMakeFiles/Sort-Algorithm-Analysis-2021.dir/clean:
 src/CMakeFiles/Sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\Sort.dir\build.make src/CMakeFiles/Sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Sort"
 .PHONY : src/CMakeFiles/Sort.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/Sort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles 0
 .PHONY : src/CMakeFiles/Sort.dir/rule
 
 # Convenience name for target.

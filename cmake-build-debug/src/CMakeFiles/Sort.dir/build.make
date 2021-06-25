@@ -61,10 +61,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021
+CMAKE_SOURCE_DIR = C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/Sort.dir/depend.make
@@ -78,72 +78,72 @@ include src/CMakeFiles/Sort.dir/flags.make
 src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj: src/CMakeFiles/Sort.dir/flags.make
 src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj: src/CMakeFiles/Sort.dir/includes_CXX.rsp
 src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj: ../src/BubbleSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\BubbleSort.cpp.obj -c C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\BubbleSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Sort.dir/BubbleSort.cpp.obj"
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\BubbleSort.cpp.obj -c C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\BubbleSort.cpp
 
 src/CMakeFiles/Sort.dir/BubbleSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sort.dir/BubbleSort.cpp.i"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\BubbleSort.cpp > CMakeFiles\Sort.dir\BubbleSort.cpp.i
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\BubbleSort.cpp > CMakeFiles\Sort.dir\BubbleSort.cpp.i
 
 src/CMakeFiles/Sort.dir/BubbleSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sort.dir/BubbleSort.cpp.s"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\BubbleSort.cpp -o CMakeFiles\Sort.dir\BubbleSort.cpp.s
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\BubbleSort.cpp -o CMakeFiles\Sort.dir\BubbleSort.cpp.s
 
 src/CMakeFiles/Sort.dir/Dataset.cpp.obj: src/CMakeFiles/Sort.dir/flags.make
 src/CMakeFiles/Sort.dir/Dataset.cpp.obj: src/CMakeFiles/Sort.dir/includes_CXX.rsp
 src/CMakeFiles/Sort.dir/Dataset.cpp.obj: ../src/Dataset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Sort.dir/Dataset.cpp.obj"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\Dataset.cpp.obj -c C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\Dataset.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Sort.dir/Dataset.cpp.obj"
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\Dataset.cpp.obj -c C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\Dataset.cpp
 
 src/CMakeFiles/Sort.dir/Dataset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sort.dir/Dataset.cpp.i"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\Dataset.cpp > CMakeFiles\Sort.dir\Dataset.cpp.i
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\Dataset.cpp > CMakeFiles\Sort.dir\Dataset.cpp.i
 
 src/CMakeFiles/Sort.dir/Dataset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sort.dir/Dataset.cpp.s"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\Dataset.cpp -o CMakeFiles\Sort.dir\Dataset.cpp.s
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\Dataset.cpp -o CMakeFiles\Sort.dir\Dataset.cpp.s
 
 src/CMakeFiles/Sort.dir/QuickSort.cpp.obj: src/CMakeFiles/Sort.dir/flags.make
 src/CMakeFiles/Sort.dir/QuickSort.cpp.obj: src/CMakeFiles/Sort.dir/includes_CXX.rsp
 src/CMakeFiles/Sort.dir/QuickSort.cpp.obj: ../src/QuickSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Sort.dir/QuickSort.cpp.obj"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\QuickSort.cpp.obj -c C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\QuickSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Sort.dir/QuickSort.cpp.obj"
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\QuickSort.cpp.obj -c C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\QuickSort.cpp
 
 src/CMakeFiles/Sort.dir/QuickSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sort.dir/QuickSort.cpp.i"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\QuickSort.cpp > CMakeFiles\Sort.dir\QuickSort.cpp.i
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\QuickSort.cpp > CMakeFiles\Sort.dir\QuickSort.cpp.i
 
 src/CMakeFiles/Sort.dir/QuickSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sort.dir/QuickSort.cpp.s"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\QuickSort.cpp -o CMakeFiles\Sort.dir\QuickSort.cpp.s
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\QuickSort.cpp -o CMakeFiles\Sort.dir\QuickSort.cpp.s
 
 src/CMakeFiles/Sort.dir/SelectSort.cpp.obj: src/CMakeFiles/Sort.dir/flags.make
 src/CMakeFiles/Sort.dir/SelectSort.cpp.obj: src/CMakeFiles/Sort.dir/includes_CXX.rsp
 src/CMakeFiles/Sort.dir/SelectSort.cpp.obj: ../src/SelectSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Sort.dir/SelectSort.cpp.obj"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\SelectSort.cpp.obj -c C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\SelectSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Sort.dir/SelectSort.cpp.obj"
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\SelectSort.cpp.obj -c C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\SelectSort.cpp
 
 src/CMakeFiles/Sort.dir/SelectSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sort.dir/SelectSort.cpp.i"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\SelectSort.cpp > CMakeFiles\Sort.dir\SelectSort.cpp.i
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\SelectSort.cpp > CMakeFiles\Sort.dir\SelectSort.cpp.i
 
 src/CMakeFiles/Sort.dir/SelectSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sort.dir/SelectSort.cpp.s"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\SelectSort.cpp -o CMakeFiles\Sort.dir\SelectSort.cpp.s
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\SelectSort.cpp -o CMakeFiles\Sort.dir\SelectSort.cpp.s
 
 src/CMakeFiles/Sort.dir/SortShow.cpp.obj: src/CMakeFiles/Sort.dir/flags.make
 src/CMakeFiles/Sort.dir/SortShow.cpp.obj: src/CMakeFiles/Sort.dir/includes_CXX.rsp
 src/CMakeFiles/Sort.dir/SortShow.cpp.obj: ../src/SortShow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Sort.dir/SortShow.cpp.obj"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\SortShow.cpp.obj -c C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\SortShow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Sort.dir/SortShow.cpp.obj"
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\SortShow.cpp.obj -c C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\SortShow.cpp
 
 src/CMakeFiles/Sort.dir/SortShow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sort.dir/SortShow.cpp.i"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\SortShow.cpp > CMakeFiles\Sort.dir\SortShow.cpp.i
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\SortShow.cpp > CMakeFiles\Sort.dir\SortShow.cpp.i
 
 src/CMakeFiles/Sort.dir/SortShow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sort.dir/SortShow.cpp.s"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src\SortShow.cpp -o CMakeFiles\Sort.dir\SortShow.cpp.s
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src\SortShow.cpp -o CMakeFiles\Sort.dir\SortShow.cpp.s
 
 # Object files for target Sort
 Sort_OBJECTS = \
@@ -163,9 +163,9 @@ Sort_EXTERNAL_OBJECTS =
 ../lib/libSort.a: src/CMakeFiles/Sort.dir/SortShow.cpp.obj
 ../lib/libSort.a: src/CMakeFiles/Sort.dir/build.make
 ../lib/libSort.a: src/CMakeFiles/Sort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ..\..\lib\libSort.a"
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && $(CMAKE_COMMAND) -P CMakeFiles\Sort.dir\cmake_clean_target.cmake
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Sort.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ..\..\lib\libSort.a"
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && $(CMAKE_COMMAND) -P CMakeFiles\Sort.dir\cmake_clean_target.cmake
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Sort.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/Sort.dir/build: ../lib/libSort.a
@@ -173,10 +173,10 @@ src/CMakeFiles/Sort.dir/build: ../lib/libSort.a
 .PHONY : src/CMakeFiles/Sort.dir/build
 
 src/CMakeFiles/Sort.dir/clean:
-	cd /d C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && $(CMAKE_COMMAND) -P CMakeFiles\Sort.dir\cmake_clean.cmake
+	cd /d C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src && $(CMAKE_COMMAND) -P CMakeFiles\Sort.dir\cmake_clean.cmake
 .PHONY : src/CMakeFiles/Sort.dir/clean
 
 src/CMakeFiles/Sort.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021 C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\src C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src C:\Users\admin\Desktop\Github\Sort-Algorithm-Analysis-2021\cmake-build-debug\src\CMakeFiles\Sort.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021 C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\src C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src C:\Users\ASUS\CLionProjects\Sort-Algorithm-Analysis-2021\cmake-build-debug\src\CMakeFiles\Sort.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Sort.dir/depend
 

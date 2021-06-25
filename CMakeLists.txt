@@ -7,6 +7,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
+MATH(EXPR stack_size "16*1024*1024")
+set(CMAKE_EXE_LINKER_FLAGS "-Wl,--stack,${stack_size}")
+
 aux_source_directory(. ALL_SRCS)
 add_subdirectory(src)
 add_executable(Sort-Algorithm-Analysis-2021 ${ALL_SRCS} include/Student.h)

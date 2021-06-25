@@ -3,3 +3,7 @@
 //
 
 #include "BubbleSort.h"
+
+void BubbleSort::ori(){
+
+}

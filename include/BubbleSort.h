@@ -9,6 +9,8 @@
 
 class BubbleSort {
 public:
+    void ori();
+    void improved();
 private:
     Dataset data;
 };

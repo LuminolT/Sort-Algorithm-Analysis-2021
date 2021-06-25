@@ -3,3 +3,7 @@
 //
 
 #include "SelectSort.h"
+
+void SelectSort::ori(){
+
+}

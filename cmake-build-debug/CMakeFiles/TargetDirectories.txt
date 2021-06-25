@@ -1,0 +1,6 @@
+C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/Sort-Algorithm-Analysis-2021.dir
+C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/src/CMakeFiles/Sort.dir
+C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+C:/Users/admin/Desktop/Github/Sort-Algorithm-Analysis-2021/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir

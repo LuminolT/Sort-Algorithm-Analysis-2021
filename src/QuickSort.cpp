@@ -3,3 +3,7 @@
 //
 
 #include "QuickSort.h"
+
+void QuickSort::ori(){
+
+}

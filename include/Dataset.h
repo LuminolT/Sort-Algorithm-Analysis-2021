@@ -22,7 +22,7 @@ public:
     template<typename T> void getLowerDistribution(const T &x);
     int getSize();
     std::vector<std::variant<int,double>> getData();
-private:
+//private:
     std::vector<std::variant<int, double>> data;
     int size;
 };

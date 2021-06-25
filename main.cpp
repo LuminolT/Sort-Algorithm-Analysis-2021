@@ -1,37 +1,18 @@
 #include <iostream>
 #include "Dataset.h"
-
+#include "BubbleSort.h"
 
 int main(){
-    Dataset dataa;
-    dataa.setDataSize(255);
-    dataa.getGaussDistribution(int(1.0));
-    for(int i = 0; i < 255; ++i){
-        std::cout << std::get<int>(dataa.data[i]) << ' ';
+    BubbleSort bs;
+    bs.data.setDataSize(255);
+    bs.data.getGaussDistribution(double(1));
+    for(int i = 0; i < 255; i++){
+        std::cout << std::get<double>(bs.data.data[i]) << " ";
     }
-    dataa.data.clear();
-    std::cout << "\n\n";
+    std::cout << std::endl << std::endl;
+    std::vector<std::variant<int,double>> temp = bs.ori();
+    for(int i = 0; i < 255; i++){
+        std::cout << std::get<double>(temp[i]) << " ";
+    }
 
-    dataa.getGaussDistribution(double(1.0));
-    for(int i = 0; i < 255; ++i){
-        std::cout << std::get<double>(dataa.data[i]) << ' ';
-    }
-    dataa.data.clear();
-    std::cout << "\n\n";
-
-    dataa.getUniformRealDistribution(int(1.0));
-    for(int i = 0; i < 255; ++i){
-        std::cout << std::get<int>(dataa.data[i]) << ' ';
-    }
-    dataa.data.clear();
-    std::cout << "\n\n";
-    dataa.getUniformRealDistribution(double(1.0));
-    for(int i = 0; i < 255; ++i){
-        std::cout << std::get<double>(dataa.data[i]) << ' ';
-    }
-    return 0;
-    //yzp
-    //myyyyyyy
-    //SJCCCCCCC
-    //lyfff
 }

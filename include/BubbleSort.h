@@ -9,10 +9,11 @@
 
 class BubbleSort {
 public:
-    void ori();
-    void improved();
-private:
+    std::vector<std::variant<int,double>> ori();
+    std::vector<std::variant<int,double>> improved();
     Dataset data;
+private:
+
 };
 
 

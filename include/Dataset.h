@@ -13,16 +13,19 @@
 #include <variant>
 #include "Student.h"
 
+enum DATATYPE{INT, DOUBLE, STRUCT, STRING};
+
 class Dataset {
 public:
     void setDataSize(int size);
+    template<typename T> void setData(DATATYPE type, const T &x);
+    int getSize();
+    std::vector<std::variant<int,double>> getData();
+protected:
     template<typename T> void getUniformRealDistribution(const T &x);
     template<typename T> void getGaussDistribution(const T &x);
     template<typename T> void getUpperDistribution(const T &x);
     template<typename T> void getLowerDistribution(const T &x);
-    int getSize();
-    std::vector<std::variant<int,double>> getData();
-//private:
     std::vector<std::variant<int, double>> data;
     int size;
 };

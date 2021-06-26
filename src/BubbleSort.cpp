@@ -4,7 +4,7 @@
 
 #include "BubbleSort.h"
 
-std::vector<std::variant<int,double>> BubbleSort::ori(){
+void BubbleSort::ori(){
     int size = this->data.getSize();
     std::vector<std::variant<int,double>> a = this->data.getData();
     std::variant<int,double> temp; // 定义一个局部变量，数据类型与形式数据类型相同

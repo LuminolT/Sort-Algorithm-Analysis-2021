@@ -5,14 +5,12 @@
 #ifndef SORT_ALGORITHM_ANALYSIS_2021_QUICKSORT_H
 #define SORT_ALGORITHM_ANALYSIS_2021_QUICKSORT_H
 
-#include "Dataset.h"
+#include "Sort.h"
 
-class QuickSort {
+class QuickSort : public Sort{
 public:
     void ori();
     void improved();
-private:
-    Dataset data;
 };
 
 

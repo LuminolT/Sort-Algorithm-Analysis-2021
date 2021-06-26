@@ -5,15 +5,12 @@
 #ifndef SORT_ALGORITHM_ANALYSIS_2021_BUBBLESORT_H
 #define SORT_ALGORITHM_ANALYSIS_2021_BUBBLESORT_H
 
-#include "Dataset.h"
+#include "Sort.h"
 
-class BubbleSort {
+class BubbleSort : public Sort{
 public:
-    std::vector<std::variant<int,double>> ori();
-    std::vector<std::variant<int,double>> improved();
-    Dataset data;
-private:
-
+    void ori();
+    void improved();
 };
 
 

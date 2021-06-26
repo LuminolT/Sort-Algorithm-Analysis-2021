@@ -5,14 +5,12 @@
 #ifndef SORT_ALGORITHM_ANALYSIS_2021_SELECTSORT_H
 #define SORT_ALGORITHM_ANALYSIS_2021_SELECTSORT_H
 
-#include "Dataset.h"
+#include "Sort.h"
 
-class SelectSort {
+class SelectSort : public Sort{
 public:
     void ori();
     void improved();
-private:
-    Dataset data;
 };
 
 

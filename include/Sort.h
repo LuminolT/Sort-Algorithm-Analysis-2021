@@ -9,8 +9,8 @@
 
 class Sort {
 public:
-    void ori();             //original sort algorithm
-    void improved();        //improved sort algorithm
+    virtual void ori();             //original sort algorithm
+    virtual void improved();        //improved sort algorithm
     void print();           //print the sorted vector
     void show();            //visualized sort show
     bool isSorted();        //check the vector is sorted or not

@@ -12,6 +12,6 @@ set(CMAKE_EXE_LINKER_FLAGS "-Wl,--stack,${stack_size}")
 
 aux_source_directory(. ALL_SRCS)
 add_subdirectory(src)
-add_executable(Sort-Algorithm-Analysis-2021 ${ALL_SRCS} include/Student.h)
+add_executable(Sort-Algorithm-Analysis-2021 ${ALL_SRCS})
 
 target_link_libraries(Sort-Algorithm-Analysis-2021 Sort)

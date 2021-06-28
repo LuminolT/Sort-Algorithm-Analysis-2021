@@ -9,8 +9,8 @@
 
 class BubbleSort : public Sort{
 public:
-    virtual void ori();
-    virtual void improved();
+    void ori() override;
+    void improved() override;
 };
 
 

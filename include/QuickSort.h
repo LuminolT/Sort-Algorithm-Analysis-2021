@@ -9,8 +9,8 @@
 
 class QuickSort : public Sort{
 public:
-    void ori();
-    void improved();
+    void ori() override;
+    void improved() override;
 };
 
 

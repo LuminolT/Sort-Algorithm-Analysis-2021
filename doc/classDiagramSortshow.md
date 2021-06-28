@@ -1,35 +1,47 @@
-```mermaid
 classDiagram
-Sortshow ..> BubbleSort
-Sortshow ..> SelectSort
-Sortshow ..> QuickSort
-BubbleSort ..> Dataset
-SelectSort ..> Dataset
-QuickSort ..> Dataset
+Sort <|-- BubbleSort
+Sort <|-- SelectSort
+Sort <|-- QuickSort
+Sort ..> Dataset
+Sort ..> SortShow
 
-class Sortshow{
-	+show()
+class SortShow{
++show()
+}
+class Sort{
++ori()
++improved()
++setData()
++print()
++show()
++isSorted()
++calcTime()
+-vector<variant<>> data
+-int size
+-clock_t start
+-clock_t end
 }
 class BubbleSort{
-	-Dataset data
-	+originSort()
-	+improvedSort()
++void ori();
++void improved();
 }
 class SelectSort{
-	-Dataset data
-	+originSort()
-	+improvedSort()
++void ori();
++void improved();
 }
 class QuickSort{
-	-Dataset data
-	+originSort()
-	+improvedSort()
++ori();
++improved();
 }
 class Dataset{
-	-vector<T> data
-	-int length
-	-iterator begin
-	+show()
++setDataSize()
++setData()
++getSize()
++getData()
+-getUniformRealDistribution()
+-getGaussDistribution()
+-getUpperDistribution()
+-getLowerDistribution()
+-vector<variant<>> data
+-int size
 }
-```
-

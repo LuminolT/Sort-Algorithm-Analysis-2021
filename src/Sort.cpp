@@ -21,10 +21,6 @@ void Sort::setData(Dataset &data){
     this->data = data.getData();
     this->size = data.getSize();
 }
-void print();                   //print the sorted vector
-void show();                    //visualized sort show
-bool isSorted();                //check the vector is sorted or not
-double calcTime();              //calculate the running
 
 void Sort::print() {
     for(int i = 0; i < data.size(); ++i)

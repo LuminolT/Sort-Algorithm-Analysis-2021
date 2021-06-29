@@ -4,8 +4,7 @@
 
 #include "SelectSort.h"
 
-void SelectSort::ori()
-{
+void SelectSort::ori() {
     std::variant<int,double> temp;
     int i, j, k=0;
     for(i=1; i<size; i++)							// 循环size-1次

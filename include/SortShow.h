@@ -6,7 +6,8 @@
 #define SORT_ALGORITHM_ANALYSIS_2021_SORTSHOW_H
 
 class SortShow {
-
+public:
+    void sortShow();
 };
 
 #endif //SORT_ALGORITHM_ANALYSIS_2021_SORTSHOW_H

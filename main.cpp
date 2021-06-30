@@ -2,6 +2,7 @@
 #include "Dataset.h"
 #include "BubbleSort.h"
 #include "SelectSort.h"
+#include "InsertSort.h"
 #include "Sort.h"
 
 int main() {

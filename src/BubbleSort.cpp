@@ -22,47 +22,38 @@ void BubbleSort::ori(){
 
 void BubbleSort::improved() {
 
-        int i = 0;
-        int j = 0;
-        int n = 0;//同时找最大值的最小需要两个下标遍历
-        int flag = 0;
-        int pos = 0;//用来记录最后一次交换的位置
-        int k = size - 1;
-        for (i = 0; i < size - 1; i++)//确定排序趟数
+
+
+
+
+
+        int i = 0, j = 0;
+        int k = size - 1,pos = 0;//pos变量用来标记循环里最后一次交换的位置
+
+        for (i = 0; i < size - 1; i++)//一共要排序size-1次
         {
-            pos = 0;
-            flag = 0;
-            //正向寻找最大值
-            for (j = n; j < k; j++)//确定比较次数
+            //每次遍历标志位都要先置为0，才能判断后面的元素是否发生了交换
+            int flag = 0;
+
+            for (j = 0; j <k; j++)//选出该趟排序的最大值往后移动
             {
                 if (data[j] > data[j + 1])
                 {
-                    //交换
-                    std::variant<int,double>
-                            tmp = data[j];
+                    std::variant<int,double> tmp = data[j];
                     data[j] = data[j + 1];
                     data[j + 1] = tmp;
-                    flag = 1;//加入标记
-                    pos = j;//交换元素，记录最后一次交换的位置
+                    flag = 1;//只要有发生了交换，flag就置为1
+                    pos = j;//循环里最后一次交换的位置 j赋给pos
                 }
             }
-            if (flag == 0)//如果没有交换过元素，则已经有序,直接结束
-            {
-                return;
-            }
-            k = pos;//下一次比较到记录位置即可
-            //反向寻找最小值
-            for (j = k; j > n; j--)
-            {
-                std::variant<int,double> tmp = data[j];
-                data[j] = data[j - 1];
-                data[j - 1] = tmp;
-                flag = 1;
-            }
-            n++;
-            if (flag == 0)//如果没有交换过元素，则已经有序,直接结束
+
+            k = pos;
+            //判断标志位是否为0，如果为0，说明后面的元素已经有序，就直接return
+            if (flag == 0)
             {
                 return;
             }
         }
-}
+
+    }
+

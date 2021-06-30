@@ -7,5 +7,5 @@
 int main() {
     Dataset data;
     data.setDataSize(255);
-    // SJC
+    data.getGaussDistribution(INT);
 }

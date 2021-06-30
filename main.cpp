@@ -2,7 +2,6 @@
 #include "Dataset.h"
 #include "BubbleSort.h"
 #include "SelectSort.h"
-#include "InsertSort.h"
 #include "Sort.h"
 
 int main() {
@@ -13,11 +12,11 @@ int main() {
 //    for(int i = 0; i < data.getSize(); i++){
 //        std::cout << 1;
 //    }
-    SelectSort bs;
+    BubbleSort bs;
     bs.setData(data);
     bs.print();
     std::cout << "\n\n\n";
-    bs.improved();
+    bs.ori();
     bs.print();
     std::cout << "\n\n\n";
     std::cout << bs.isSorted();

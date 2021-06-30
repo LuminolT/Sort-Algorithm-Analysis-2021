@@ -24,7 +24,7 @@ void Sort::setData(Dataset &data){
 
 void Sort::print() {
     for(int i = 0; i < data.size(); ++i)
-        std::cout << data[i];
+        std::cout << data[i] << '|';
 }
 
 bool Sort::isSorted() {

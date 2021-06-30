@@ -4,7 +4,8 @@
 
 #include "BubbleSort.h"
 
-void BubbleSort::ori(){
+void BubbleSort::ori()
+{
     std::variant<int,double> temp; // 定义一个局部变量，数据类型与形式数据类型相同
     int i, j;
     for (i = 1; i < size; i++) // 共进行 size-1 轮比较和交换

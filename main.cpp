@@ -13,7 +13,7 @@ int main() {
 //    for(int i = 0; i < data.getSize(); i++){
 //        std::cout << 1;
 //    }
-    InsertSort bs;
+    SelectSort bs;
     bs.setData(data);
     bs.print();
     std::cout << "\n\n\n";

@@ -38,3 +38,11 @@ double Sort::calcTime() {
     double c = 1.0 / CLOCKS_PER_SEC;
     return c * (end - start);
 }
+
+void Sort::ori(){
+
+}
+
+void Sort::improved() {
+
+}

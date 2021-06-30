@@ -13,11 +13,11 @@ int main() {
 //    for(int i = 0; i < data.getSize(); i++){
 //        std::cout << 1;
 //    }
-    BubbleSort bs;
+    InsertSort bs;
     bs.setData(data);
     bs.print();
     std::cout << "\n\n\n";
-    bs.improved();
+    bs.ori();
     bs.print();
     std::cout << "\n\n\n";
     std::cout << bs.isSorted();

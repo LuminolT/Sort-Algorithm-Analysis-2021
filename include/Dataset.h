@@ -13,18 +13,22 @@
 #include "Student.h"
 
 enum DATATYPE{INT, DOUBLE, STRUCT, STRING};
+enum DISTRITYPE{UNIFORM, GAUSS, UPPER, LOWER};
 
 class Dataset {
 public:
     void setDataSize(int size);
-    template<typename T> void setData(DATATYPE type, const T &x);
+    template<typename T> void setData(DATATYPE type);
+    // gen data after.
     int getSize();
     std::vector<std::variant<int,double>> getData();
-protected:
+    // ↓ trans to protected after
     template<typename T> void getUniformRealDistribution(const T &x);
     template<typename T> void getGaussDistribution(const T &x);
     template<typename T> void getUpperDistribution(const T &x);
     template<typename T> void getLowerDistribution(const T &x);
+protected:
+    template<typename T> T auxGenerate(DATATYPE type);
     std::vector<std::variant<int, double>> data;
     int size;
 };
@@ -34,6 +38,17 @@ protected:
  * ref: https://en.cppreference.com/w/cpp/numeric/random/normal_distribution
  */
 
+template<typename T> T auxGenerate(DATATYPE type){
+    T x;
+    switch(type){
+        case INT: x = int(1); break;
+        case DOUBLE: x = double(1.0); break;
+        case STRUCT: x = ~; break;
+        case STRING: x = "1"; break;
+        default: break;
+    }
+    return x;
+}
 
 template<typename T> void Dataset::getUniformRealDistribution(const T &x) {
     std::random_device rd;

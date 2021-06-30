@@ -16,7 +16,7 @@ int main() {
     bs.setData(data);
     bs.print();
     std::cout << "\n\n\n";
-    bs.ori();
+    bs.improved();
     bs.print();
     std::cout << "\n\n\n";
     std::cout << bs.isSorted();

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stack>
 #include "Dataset.h"
 #include "BubbleSort.h"
 #include "SelectSort.h"

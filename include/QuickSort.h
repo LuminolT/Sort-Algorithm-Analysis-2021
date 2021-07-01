@@ -9,9 +9,12 @@
 
 class QuickSort : public Sort{
 public:
-    void ori() override;
-    //void improved() override;
-    void Qs(int left, int right);
+   // void ori() override;
+    void improved() override;
+   //void Qs(int left,int right);
+   int getPartition(int low,int high);
+   void Qsi(int left,int right);
+
 };
 
 

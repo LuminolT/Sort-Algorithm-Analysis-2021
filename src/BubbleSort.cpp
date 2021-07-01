@@ -25,31 +25,33 @@ void BubbleSort::ori() {
 }
 
 void BubbleSort::improved() {
-    int i = 0, j = 0;
-    int k = size - 1,pos = 0;//pos变量用来标记循环里最后一次交换的位置
-    for (i = 0; i < size - 1; i++)//一共要排序size-1次
-    {
-        //每次遍历标志位都要先置为0，才能判断后面的元素是否发生了交换
-        int flag = 0;
-
-        for (j = 0; j <k; j++)//选出该趟排序的最大值往后移动
-        {
-            if (data[j] > data[j + 1])
-            {
-                var tmp = data[j];
-                data[j] = data[j + 1];
-                data[j + 1] = tmp;
-                flag = 1;//只要有发生了交换，flag就置为1
-                pos = j;//循环里最后一次交换的位置 j赋给pos
+    int left = 0;
+    int right = size- 1;
+    var temp;
+    setStartTime();
+    while (left < right) {
+        for (int i = left; i < right; i++) {
+            addCmpTimes();
+            if (data[i] > data[i + 1]) {
+                addSwapTimes();
+                temp = data[i];
+                data[i] = data[i + 1];
+                data[i + 1] = temp;
             }
         }
-        k = pos;
-        //判断标志位是否为0，如果为0，说明后面的元素已经有序，就直接return
-        if (flag == 0)
-        {
-            return;
-        }
-    }
+        right--;
 
+        for (int j = right; j > left; j--) {
+            addCmpTimes();
+            if (data[j] < data[j - 1]) {
+                addSwapTimes();
+                temp = data[j];
+                data[j] = data[j - 1];
+                data[j - 1] = temp;
+            }
+        }
+        left++;
+    }
+    setEndTime();
 }
 

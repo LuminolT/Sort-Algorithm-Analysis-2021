@@ -27,22 +27,41 @@ void Sort::print() {
         std::cout << data[i] << '|';
 }
 
-bool Sort::isSorted() {
+std::string Sort::isSorted() {
     for (int i = 0; i < data.size() - 1; ++i)
         if (data[i] > data[i + 1])
-            return false;
-    return true;
+            return "Noop";
+    return "Yep";
 }
 
-double Sort::calcTime() {
+void Sort::ori(){}
+void Sort::improved() {}
+
+void Sort::setStartTime() {
+    start = clock();
+}
+
+void Sort::setEndTime() {
+    end = clock();
+}
+
+double Sort::getTime() {
     double c = 1.0 / CLOCKS_PER_SEC;
     return c * (end - start);
 }
 
-void Sort::ori(){
-
+void Sort::addCmpTimes(){
+    cmpTimes++;
 }
 
-void Sort::improved() {
+void Sort::addSwapTimes(){
+    swapTimes++;
+}
 
+ull Sort::getCmpTimes() {
+    return cmpTimes;
+}
+
+ull Sort::getSwapTimes() {
+    return swapTimes;
 }

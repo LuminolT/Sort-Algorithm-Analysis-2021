@@ -14,6 +14,7 @@
 
 enum DISTRITYPE{UNIFORM, GAUSS, UPPER, LOWER};
 typedef std::variant<int, double> var;
+typedef unsigned long long ull;
 
 class Dataset {
 public:

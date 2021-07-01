@@ -8,10 +8,6 @@ int main() {
     Dataset data;
     data.setDataSize(255);
     data.setData(double(1.0), GAUSS);
-    std::vector<std::variant<int,double>> x = data.getData();
-//    for(int i = 0; i < data.getSize(); i++){
-//        std::cout << 1;
-//    }
     BubbleSort bs;
     bs.setData(data);
     bs.print();
@@ -19,6 +15,9 @@ int main() {
     bs.ori();
     bs.print();
     std::cout << "\n\n\n";
-    std::cout << bs.isSorted();
+    std::cout << "Is sorted? " << bs.isSorted() << "\n";
+    std::cout << "Run time: " << bs.getTime() << "s\n";
+    std::cout << "Swap times: " << bs.getSwapTimes() << "\n";
+    std::cout << "Cmp times: " << bs.getCmpTimes() << "\n";
     return 0;
 }

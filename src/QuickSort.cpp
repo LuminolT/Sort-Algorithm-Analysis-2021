@@ -3,7 +3,6 @@
 //
 
 #include "QuickSort.h"
-#include <stack>
 using namespace std;
 void QuickSort :: Qs(int left, int right)
 {
@@ -17,17 +16,17 @@ void QuickSort :: Qs(int left, int right)
     x = data[left];
     while (i < j)
     {
-        while(i < j && data[j]>=x) // 从右向左找第一个小于x的数
+        while(i < j && data[j]>=x)
             j--;
         if(i < j)
             data[i++] = data[j];
-        while(i < j && data[i]<x) // 从左向右找第一个大于等于x的数
+        while(i < j && data[i]<x)
             i++;
         if(i < j)
             data[j--] = data[i];
     }
     data[i] = x;
-    Qs(left, i - 1); // 递归调用
+    Qs(left, i - 1);
     Qs( i + 1, right);
 }
 void QuickSort::ori()
@@ -51,30 +50,30 @@ void QuickSort::ori()
 
 void QuickSort::getMedianOfThreePivot(int low, int high)
 {
-    //主要是利用三元区中值，随机的获取数组中的一个元素做为枢纽元
+
     int mid = (low + high) / 2;
-    //首先把三元素中的最小的元素交换到中间
+
     if (data[low] < data[mid])
         swap(data[low], data[mid]);
     if (data[high] < data[mid])
         swap(data[high], data[mid]);
-    //在比较两个较大的元素，把最小的放到最左边位置，即为三数中值
+
     if (data[high] < data[low])
         swap(data[high], data[low]);
 }
 vector<int> QuickSort ::getPartition(int low, int high)
 {
     var keyVal;
-    getMedianOfThreePivot(low, high);//转换枢纽元
+    getMedianOfThreePivot(low, high);
     int tmpLow = low;
     int tmpHeight = high;
 
     int left = low;
     int right = high;
-    int leftCommonNum = 0;//记录左侧和枢纽元相等的元素个数
-    int rightCommonNum = 0;//记录右侧和枢纽元相等的元素个数
+    int leftCommonNum = 0;
+    int rightCommonNum = 0;
 
-    //第一步：划分的过程中把与枢纽元相等的元素分散到数组的两端
+
     keyVal = data[low];
     while (low < high)
     {
@@ -82,7 +81,7 @@ vector<int> QuickSort ::getPartition(int low, int high)
         {
             if (data[high] == keyVal)
             {
-                swap(data[high], data[right]);//相等元素放到右端
+                swap(data[high], data[right]);
                 --right;
                 ++rightCommonNum;
             }
@@ -93,7 +92,7 @@ vector<int> QuickSort ::getPartition(int low, int high)
         {
             if (data[low] == keyVal)
             {
-                swap(data[low], data[left]);//相等元素放到左端
+                swap(data[low], data[left]);
                 ++left;
                 ++leftCommonNum;
             }
@@ -103,7 +102,6 @@ vector<int> QuickSort ::getPartition(int low, int high)
     }
     data[low] = keyVal;
 
-    //第二步：划分结束后，把与keyVal相等的元素移到枢纽轴（也就是枢纽元素）的两边
     for (int i = low -1,j = tmpLow;j < left;j++)
     {
         if (data[i] != keyVal)
@@ -116,7 +114,6 @@ vector<int> QuickSort ::getPartition(int low, int high)
             swap(data[j], data[i]);
         ++i;
     }
-    //计算划分区域的索引
     int partitionLeftIndex = low - 1 - leftCommonNum;
     int partitionRighttIndex = low + 1 + rightCommonNum;
     vector<int> partitionIndex;

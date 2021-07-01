@@ -7,48 +7,68 @@
 void SelectSort::ori() {
     var temp;
     int i, j, k=0;
-    for(i=1; i<size; i++)							// 循环size-1次
+    setStartTime();
+    for(i=1; i<size; i++)							// circle (size-1) times
     {
-        for(j=i; j<size; j++)
-            if(data[j] < data[k])
-                k = j;								// 找出当前范围内"最小"元素的下标
-        if(k!=i-1)									// 若"最小"元素不是a[i-1]，则交换之
+        for(j=i; j<size; j++) {
+            addCmpTimes();
+            if (data[j] < data[k])
+                k = j;                              // find the subscript of the smallest remaining element
+        }
+        if(k!=i-1)									// swap the element if it isn't the smallest one
         {
+            addSwapTimes();
             temp = data[k];
             data[k] = data[i-1];
             data[i-1] = temp;
         }
         k = i;
     }
+    setEndTime();
 }
 
 
 void SelectSort::improved() {
+    int min = 0;
+    int max = 0;
+    int j = 0;
+    int k = size;
     var temp;
-    int i,j,q,k1=0,k2=0;
-    for(i=1; i<size; i++)							// 循环size-1次
+    setStartTime();
+    for (int i = 0; i < k; ++i,--k)
     {
-        q=size-i;
-        for(j=i; j<size; j++)
+        min = i;
+        max = i;    //find the subscript of the smallest and the largest remaining element
+        for (j = i+1; j < k; ++j)
         {
-            if (data[j] < data[k1])
-                k1 = j;                             // 找出当前范围内"最小"元素的下标
-            if (data[j] > data[k2])
-                k2 = j;                                 // 找出当前范围内“最大”元素的下标
+            addCmpTimes();
+            if (data[j] < data[min])
+            {
+                min = j;
+            }
+            if (data[j] > data[max])
+            {
+                max = j;
+            }
         }
-        if(k1!=i-1)									// 若"最小"元素不是a[i-1]，则交换之
+        if (min != i)
         {
-            temp = data[k1];
-            data[k1] = data[i-1];
-            data[i-1] = temp;
+            addSwapTimes();
+            temp = data[i];//swap the smallest element
+            data[i] = data[min];
+            data[min] = temp;
         }
-        if(k2!=q)									// 若"最大"元素不是a[q-1]，则交换之
+        if (max == i)
         {
-            temp = data[k2];
-            data[k2] = data[q];
-            data[q] = temp;
+            max = min;// prevent the largest element being swaped
         }
-        k1 = i;
-        k2 = i;
+        if (max != k-1)
+        {
+            addSwapTimes();
+            temp = data[k-1];// swap the largest element
+            data[k-1] = data[max];
+            data[max] = temp;
+        }
     }
+    setEndTime();
 }

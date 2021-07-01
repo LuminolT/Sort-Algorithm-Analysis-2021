@@ -6,9 +6,9 @@
 
 int main() {
     Dataset data;
-    data.setDataSize(255);
+    data.setDataSize(8192);
     data.setData(double(1.0), GAUSS);
-    BubbleSort bs;
+    SelectSort bs;
     bs.setData(data);
     bs.print();
     std::cout << "\n\n\n";

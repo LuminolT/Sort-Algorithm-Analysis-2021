@@ -1,14 +1,15 @@
 #include <iostream>
 #include "Dataset.h"
+#include "InsertSort.h"
 #include "BubbleSort.h"
 #include "SelectSort.h"
 #include "Sort.h"
 
 int main() {
     Dataset data;
-    data.setDataSize(255);
+    data.setDataSize(16538);
     data.setData(double(1.0), GAUSS);
-    BubbleSort bs;
+    InsertSort bs;
     bs.setData(data);
     bs.print();
     std::cout << "\n\n\n";

@@ -6,7 +6,7 @@
 #include "QuickSort.h"
 
 int main() {
-    Dataset data;
+    Dataset data;//
     data.setDataSize(255);
     data.setData(double(1.0), GAUSS);
     QuickSort bs;

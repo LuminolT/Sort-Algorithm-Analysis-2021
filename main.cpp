@@ -3,16 +3,17 @@
 #include "BubbleSort.h"
 #include "SelectSort.h"
 #include "Sort.h"
+#include "QuickSort.h"
 
 int main() {
     Dataset data;
     data.setDataSize(255);
     data.setData(double(1.0), GAUSS);
-    BubbleSort bs;
+    QuickSort bs;
     bs.setData(data);
     bs.print();
     std::cout << "\n\n\n";
-    bs.ori();
+    bs.improved();
     bs.print();
     std::cout << "\n\n\n";
     std::cout << "Is sorted? " << bs.isSorted() << "\n";

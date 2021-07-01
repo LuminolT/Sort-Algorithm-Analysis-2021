@@ -5,9 +5,13 @@
 #include "QuickSort.h"
 #include <stack>
 using namespace std;
-/*void QuickSort :: Qs(int left, int right)
+void QuickSort :: Qs(int left, int right)
 {
-    std::variant<int,double> x;
+    if(left>=right)
+    {
+        return;
+    }
+    var x;
     int i = left;
     int j = right;
     x = data[left];
@@ -28,78 +32,133 @@ using namespace std;
 }
 void QuickSort::ori()
 {
+    setStartTime();
     Qs(0,size);
-}*/
-int QuickSort::getPartition(int low, int high)
-{
-    std::variant<int,double> keyVal;
-    keyVal = data[high];
-    int i = low - 1;
-    for (int j = low; j < high; j++)
-    {
+    setEndTime();
+}
 
-        if (data[j] <= keyVal)
-        {
-            i = i + 1;
-            swap(data[i], data[j]);
-        }
-    }
-    swap(data[i + 1], data[high]);
-    return i+1;
-}
-/*
-void QuickSort::Qsi(int left, int right)
+
+
+
+
+
+
+
+
+
+
+
+
+void QuickSort::getMedianOfThreePivot(int low, int high)
 {
-    if (left<right)
+    //主要是利用三元区中值，随机的获取数组中的一个元素做为枢纽元
+    int mid = (low + high) / 2;
+    //首先把三元素中的最小的元素交换到中间
+    if (data[low] < data[mid])
+        swap(data[low], data[mid]);
+    if (data[high] < data[mid])
+        swap(data[high], data[mid]);
+    //在比较两个较大的元素，把最小的放到最左边位置，即为三数中值
+    if (data[high] < data[low])
+        swap(data[high], data[low]);
+}
+vector<int> QuickSort ::getPartition(int low, int high)
+{
+    var keyVal;
+    getMedianOfThreePivot(low, high);//转换枢纽元
+    int tmpLow = low;
+    int tmpHeight = high;
+
+    int left = low;
+    int right = high;
+    int leftCommonNum = 0;//记录左侧和枢纽元相等的元素个数
+    int rightCommonNum = 0;//记录右侧和枢纽元相等的元素个数
+
+    //第一步：划分的过程中把与枢纽元相等的元素分散到数组的两端
+    keyVal = data[low];
+    while (low < high)
     {
-        int mid = getPartition(left, right);
-        Qsi(left, mid-1);
-        Qsi(mid + 1, right);
+        while (low < high && data[high] >= keyVal)
+        {
+            if (data[high] == keyVal)
+            {
+                swap(data[high], data[right]);//相等元素放到右端
+                --right;
+                ++rightCommonNum;
+            }
+            --high;
+        }
+        data[low] = data[high];
+        while (low < high && data[low] <= keyVal)
+        {
+            if (data[low] == keyVal)
+            {
+                swap(data[low], data[left]);//相等元素放到左端
+                ++left;
+                ++leftCommonNum;
+            }
+            ++low;
+        }
+        data[high] = data[low];
+    }
+    data[low] = keyVal;
+
+    //第二步：划分结束后，把与keyVal相等的元素移到枢纽轴（也就是枢纽元素）的两边
+    for (int i = low -1,j = tmpLow;j < left;j++)
+    {
+        if (data[i] != keyVal)
+            swap(data[j], data[i]);
+        --i;
+    }
+    for (int i = low + 1, j = tmpHeight; j > right; j--)
+    {
+        if (data[i] != keyVal)
+            swap(data[j], data[i]);
+        ++i;
+    }
+    //计算划分区域的索引
+    int partitionLeftIndex = low - 1 - leftCommonNum;
+    int partitionRighttIndex = low + 1 + rightCommonNum;
+    vector<int> partitionIndex;
+    partitionIndex.push_back(partitionLeftIndex);
+    partitionIndex.push_back(partitionRighttIndex);
+
+    return partitionIndex;
+}
+
+void QuickSort::insertSort(int low, int high)
+{
+    var key;
+    for (int i = low; i <= high; i++)
+    {
+        key = data[i];
+        int j = i - 1;
+        while (j >= low && key < data[j])
+        {
+            data[j + 1] = data[j];
+            j--;
+        }
+        data[j + 1] = key;
     }
 }
+void QuickSort ::Qsi(int low, int high)
+{
+    if (high - low + 1 < 10)
+    {
+        insertSort(low, high);
+        return;
+    }
+    else
+    {
+        vector<int> partitionIndex = getPartition(low, high);
+        Qsi(low, partitionIndex[0]);
+        Qsi(partitionIndex[1], high);
+    }
+}
+
 void QuickSort::improved()
 {
+    setStartTime();
     Qsi(0,size);
-}*/
-void QuickSort::Qsi(int left, int right)
-{
-    stack<int> s;
-    if (left<right)
-    {
-        int mid = getPartition(left, right);
-        if (mid-1>left)
-        {
-            s.push(left);
-            s.push(mid - 1);
-        }
-        if (mid+1<right)
-        {
-            s.push(mid + 1);
-            s.push(right);
-        }
-
-        while (!s.empty())
-        {
-            int qHeight = s.top();
-            s.pop();
-            int pLow = s.top();
-            s.pop();
-            int pqMid = getPartition(pLow, qHeight);
-            if (pqMid - 1 > pLow)
-            {
-                s.push(pLow);
-                s.push(pqMid - 1);
-            }
-            if (pqMid + 1 < qHeight)
-            {
-                s.push(pqMid + 1);
-                s.push(qHeight);
-            }
-        }
-
-    }
-}
-void QuickSort::improved()
-{
-    Qsi(0,size);
+    setEndTime();
 }

@@ -13,19 +13,20 @@
 #include "Student.h"
 
 enum DISTRITYPE{UNIFORM, GAUSS, UPPER, LOWER};
+typedef std::variant<int, double> var;
 
 class Dataset {
 public:
     void setDataSize(int size);
     template<typename T> void setData(const T &x, DISTRITYPE dis);
     int getSize();
-    std::vector<std::variant<int,double>> getData();
+    std::vector<var> getData();
 protected:
     template<typename T> void getUniformRealDistribution(const T &x);
     template<typename T> void getGaussDistribution(const T &x);
     template<typename T> void getUpperDistribution(const T &x);
     template<typename T> void getLowerDistribution(const T &x);
-    std::vector<std::variant<int, double>> data;
+    std::vector<var> data;
     int size;
 };
 

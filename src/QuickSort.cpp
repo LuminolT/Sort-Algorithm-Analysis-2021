@@ -3,9 +3,8 @@
 //
 
 #include "QuickSort.h"
-void QuickSort :: Qs(int left, int right)
-{
-    std::variant<int,double> x;
+void QuickSort::Qs(int left, int right) {
+    var x;
     int i = left;
     int j = right;
     x = data[left];
@@ -24,7 +23,6 @@ void QuickSort :: Qs(int left, int right)
     Qs(left, i - 1); // 递归调用
     Qs( i + 1, right);
 }
-void QuickSort::ori()
-{
+void QuickSort::ori() {
     Qs(0,size);
 }

@@ -5,7 +5,7 @@
 #include "SelectSort.h"
 
 void SelectSort::ori() {
-    std::variant<int,double> temp;
+    var temp;
     int i, j, k=0;
     for(i=1; i<size; i++)							// 循环size-1次
     {
@@ -24,7 +24,7 @@ void SelectSort::ori() {
 
 
 void SelectSort::improved() {
-    std::variant<int,double> temp;
+    var temp;
     int i,j,q,k1=0,k2=0;
     for(i=1; i<size; i++)							// 循环size-1次
     {

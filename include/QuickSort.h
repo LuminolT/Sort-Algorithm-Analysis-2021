@@ -11,7 +11,7 @@ class QuickSort : public Sort{
 public:
     void ori() override;
     //void improved() override;
-    void Qs(int left,int right);
+    void Qs(int left, int right);
 };
 
 

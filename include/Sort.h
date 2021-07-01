@@ -26,8 +26,8 @@ public:
 protected:
     std::vector<std::variant<int, double>> data;
     int size;
-    clock_t start;
-    clock_t end;
+    clock_t start = 0;
+    clock_t end = 0;
     ull swapTimes = 0;
     ull cmpTimes = 0;
 };

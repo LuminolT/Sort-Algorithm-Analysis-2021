@@ -5,14 +5,15 @@
 #include "QuickSort.h"
 #include <stack>
 using namespace std;
-/*void QuickSort :: Qs(int left, int right)
-{
-    std::variant<int,double> x;
+
+void QuickSort :: Qs(int left, int right) {
+    if(left >= right)
+        return;
+    var x;
     int i = left;
     int j = right;
     x = data[left];
-    while (i < j)
-    {
+    while (i < j){
         while(i < j && data[j]>=x) // 从右向左找第一个小于x的数
             j--;
         if(i < j)
@@ -26,10 +27,12 @@ using namespace std;
     Qs(left, i - 1); // 递归调用
     Qs( i + 1, right);
 }
-void QuickSort::ori()
-{
+void QuickSort::ori(){
+    setStartTime();
     Qs(0,size);
-}*/
+    setEndTime();
+}
+
 int QuickSort::getPartition(int low, int high)
 {
     std::variant<int,double> keyVal;

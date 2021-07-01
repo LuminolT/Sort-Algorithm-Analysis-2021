@@ -156,7 +156,7 @@ void QuickSort ::Qsi(int low, int high)
     }
 }
 
-void QuickSort::improved()
+void QuickSort::improved()//
 {
     setStartTime();
     Qsi(0,size);

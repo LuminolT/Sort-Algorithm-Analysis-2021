@@ -3,106 +3,159 @@
 //
 
 #include "QuickSort.h"
-#include <stack>
 using namespace std;
-
-void QuickSort :: Qs(int left, int right) {
-    if(left >= right)
+void QuickSort :: Qs(int left, int right)
+{
+    if(left>=right)
+    {
         return;
+    }
     var x;
     int i = left;
     int j = right;
     x = data[left];
-    while (i < j){
-        while(i < j && data[j]>=x) // 从右向左找第一个小于x的数
+    while (i < j)
+    {
+        while(i < j && data[j]>=x)
             j--;
         if(i < j)
             data[i++] = data[j];
-        while(i < j && data[i]<x) // 从左向右找第一个大于等于x的数
+        while(i < j && data[i]<x)
             i++;
         if(i < j)
             data[j--] = data[i];
     }
     data[i] = x;
-    Qs(left, i - 1); // 递归调用
+    Qs(left, i - 1);
     Qs( i + 1, right);
 }
-void QuickSort::ori(){
+void QuickSort::ori()
+{
     setStartTime();
     Qs(0,size);
     setEndTime();
 }
 
-int QuickSort::getPartition(int low, int high)
+
+
+
+
+
+
+
+
+
+
+
+
+void QuickSort::getMedianOfThreePivot(int low, int high)
+{
+
+    int mid = (low + high) / 2;
+
+    if (data[low] < data[mid])
+        swap(data[low], data[mid]);
+    if (data[high] < data[mid])
+        swap(data[high], data[mid]);
+
+    if (data[high] < data[low])
+        swap(data[high], data[low]);
+}
+vector<int> QuickSort ::getPartition(int low, int high)
 {
     var keyVal;
-    keyVal = data[high];
-    int i = low - 1;
-    for (int j = low; j < high; j++)
-    {
+    getMedianOfThreePivot(low, high);
+    int tmpLow = low;
+    int tmpHeight = high;
 
-        if (data[j] <= keyVal)
-        {
-            i = i + 1;
-            swap(data[i], data[j]);
-        }
-    }
-    swap(data[i + 1], data[high]);
-    return i+1;
-}
-/*
-void QuickSort::Qsi(int left, int right)
-{
-    if (left<right)
-    {
-        int mid = getPartition(left, right);
-        Qsi(left, mid-1);
-        Qsi(mid + 1, right);
-    }
-}
-void QuickSort::improved()
-{
-    Qsi(0,size);
-}*/
-void QuickSort::Qsi(int left, int right)
-{
-    stack<int> s;
-    if (left<right)
-    {
-        int mid = getPartition(left, right);
-        if (mid-1>left)
-        {
-            s.push(left);
-            s.push(mid - 1);
-        }
-        if (mid+1<right)
-        {
-            s.push(mid + 1);
-            s.push(right);
-        }
+    int left = low;
+    int right = high;
+    int leftCommonNum = 0;
+    int rightCommonNum = 0;
 
-        while (!s.empty())
+
+    keyVal = data[low];
+    while (low < high)
+    {
+        while (low < high && data[high] >= keyVal)
         {
-            int qHeight = s.top();
-            s.pop();
-            int pLow = s.top();
-            s.pop();
-            int pqMid = getPartition(pLow, qHeight);
-            if (pqMid - 1 > pLow)
+            if (data[high] == keyVal)
             {
-                s.push(pLow);
-                s.push(pqMid - 1);
+                swap(data[high], data[right]);
+                --right;
+                ++rightCommonNum;
             }
-            if (pqMid + 1 < qHeight)
-            {
-                s.push(pqMid + 1);
-                s.push(qHeight);
-            }
+            --high;
         }
+        data[low] = data[high];
+        while (low < high && data[low] <= keyVal)
+        {
+            if (data[low] == keyVal)
+            {
+                swap(data[low], data[left]);
+                ++left;
+                ++leftCommonNum;
+            }
+            ++low;
+        }
+        data[high] = data[low];
+    }
+    data[low] = keyVal;
 
+    for (int i = low -1,j = tmpLow;j < left;j++)
+    {
+        if (data[i] != keyVal)
+            swap(data[j], data[i]);
+        --i;
+    }
+    for (int i = low + 1, j = tmpHeight; j > right; j--)
+    {
+        if (data[i] != keyVal)
+            swap(data[j], data[i]);
+        ++i;
+    }
+    int partitionLeftIndex = low - 1 - leftCommonNum;
+    int partitionRighttIndex = low + 1 + rightCommonNum;
+    vector<int> partitionIndex;
+    partitionIndex.push_back(partitionLeftIndex);
+    partitionIndex.push_back(partitionRighttIndex);
+
+    return partitionIndex;
+}
+
+void QuickSort::insertSort(int low, int high)
+{
+    var key;
+    for (int i = low; i <= high; i++)
+    {
+        key = data[i];
+        int j = i - 1;
+        while (j >= low && key < data[j])
+        {
+            data[j + 1] = data[j];
+            j--;
+        }
+        data[j + 1] = key;
     }
 }
-void QuickSort::improved()
+void QuickSort ::Qsi(int low, int high)
 {
+    if (high - low + 1 < 10)
+    {
+        insertSort(low, high);
+        return;
+    }
+    else
+    {
+        vector<int> partitionIndex = getPartition(low, high);
+        Qsi(low, partitionIndex[0]);
+        Qsi(partitionIndex[1], high);
+    }
+}
+
+void QuickSort::improved()//
+{
+    setStartTime();
     Qsi(0,size);
+    setEndTime();
 }

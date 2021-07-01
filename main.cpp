@@ -1,21 +1,22 @@
 #include <iostream>
+#include <stack>
 #include "Dataset.h"
-#include "InsertSort.h"
 #include "BubbleSort.h"
 #include "SelectSort.h"
 #include "Sort.h"
+#include "QuickSort.h"
 
 int main() {
-    Dataset data;
-    data.setDataSize(16538);
+    Dataset data;//
+    data.setDataSize(214788);
     data.setData(double(1.0), GAUSS);
-    InsertSort bs;
+    QuickSort bs;
     bs.setData(data);
-    bs.print();
-    std::cout << "\n\n\n";
+//    bs.print();
+//    std::cout << "\n\n\n";
     bs.ori();
-    bs.print();
-    std::cout << "\n\n\n";
+//    bs.print();
+//    std::cout << "\n\n\n";
     std::cout << "Is sorted? " << bs.isSorted() << "\n";
     std::cout << "Run time: " << bs.getTime() << "s\n";
     std::cout << "Swap times: " << bs.getSwapTimes() << "\n";

@@ -35,7 +35,7 @@ void QuickSort::ori(){
 
 int QuickSort::getPartition(int low, int high)
 {
-    std::variant<int,double> keyVal;
+    var keyVal;
     keyVal = data[high];
     int i = low - 1;
     for (int j = low; j < high; j++)

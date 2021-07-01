@@ -12,7 +12,7 @@ int Dataset::getSize(){
     return this->size;
 }
 
-std::vector<std::variant<int,double>>  Dataset::getData(){
+std::vector<var>  Dataset::getData(){
     return this->data;
 }
 

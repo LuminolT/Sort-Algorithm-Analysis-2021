@@ -24,7 +24,7 @@ public:
     ull getSwapTimes();
     ull getCmpTimes();
 protected:
-    std::vector<std::variant<int, double>> data;
+    std::vector<var> data;
     int size;
     clock_t start = 0;
     clock_t end = 0;

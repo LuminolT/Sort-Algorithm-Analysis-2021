@@ -10,10 +10,10 @@
 #include <random>
 #include <cmath>
 #include <variant>
-#include "Student.h"
+#include "Score.h"
 
 enum DISTRITYPE{UNIFORM, GAUSS, UPPER, LOWER};
-typedef std::variant<int, double> var;
+typedef std::variant<int, double, Score, std::string> var;
 typedef unsigned long long ull;
 
 class Dataset {

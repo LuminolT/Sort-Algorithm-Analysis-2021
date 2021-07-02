@@ -72,16 +72,16 @@ void Sort::clearTimes() {
 }
 
 void Sort::printLog(){
-    std::cout << "Is sorted? " << this->isSorted() << "\n";
-    std::cout << "Run time: " << this->getTime() << "s\n";
-    std::cout << "Swap times: " << this->getSwapTimes() << "\n";
-    std::cout << "Cmp times: " << this->getCmpTimes() << "\n";
+    std::cout << "\tIs sorted? " << this->isSorted() << "\n";
+    std::cout << "\tRun time: " << this->getTime() << "s\n";
+    std::cout << "\tSwap times: " << this->getSwapTimes() << "\n";
+    std::cout << "\tCmp times: " << this->getCmpTimes() << "\n";
 }
 
 void Sort::test(Dataset &data){
     std::cout << "Original Algorithm Test:\n";
     setData(data);
-    ori();
+    origin();
     printLog();
     clearTimes();
     std::cout << "Improved Algorithm Test:\n";

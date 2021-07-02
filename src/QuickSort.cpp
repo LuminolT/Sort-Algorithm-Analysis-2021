@@ -61,6 +61,7 @@ void QuickSort::getMedianOfThreePivot(int low, int high)
     if (data[high] < data[low])
         swap(data[high], data[low]);
 }
+
 vector<int> QuickSort ::getPartition(int low, int high)
 {
     var keyVal;
@@ -115,10 +116,10 @@ vector<int> QuickSort ::getPartition(int low, int high)
         ++i;
     }
     int partitionLeftIndex = low - 1 - leftCommonNum;
-    int partitionRighttIndex = low + 1 + rightCommonNum;
+    int partitionRightIndex = low + 1 + rightCommonNum;
     vector<int> partitionIndex;
     partitionIndex.push_back(partitionLeftIndex);
-    partitionIndex.push_back(partitionRighttIndex);
+    partitionIndex.push_back(partitionRightIndex);
 
     return partitionIndex;
 }
@@ -138,15 +139,15 @@ void QuickSort::insertSort(int low, int high)
         data[j + 1] = key;
     }
 }
-void QuickSort ::Qsi(int low, int high)
-{
-    if (high - low + 1 < 10)
-    {
+
+void QuickSort ::Qsi(int low, int high) {
+    if (low > high)    //added
+        return;         //added
+    if (high - low + 1 < 10) {
         insertSort(low, high);
         return;
     }
-    else
-    {
+    else {
         vector<int> partitionIndex = getPartition(low, high);
         Qsi(low, partitionIndex[0]);
         Qsi(partitionIndex[1], high);

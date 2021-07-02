@@ -40,7 +40,6 @@ void BubbleSort::improved() {
             }
         }
         right--;
-
         for (int j = right; j > left; j--) {
             addCmpTimes();
             if (data[j] < data[j - 1]) {

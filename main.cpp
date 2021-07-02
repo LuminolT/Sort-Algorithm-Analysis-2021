@@ -1,25 +1,43 @@
 #include <iostream>
-#include <stack>
 #include "Dataset.h"
 #include "BubbleSort.h"
 #include "SelectSort.h"
-#include "Sort.h"
+#include "InsertSort.h"
 #include "QuickSort.h"
+
 
 int main() {
     Dataset data;//
-    data.setDataSize(214788);
+    data.setDataSize(8);
     data.setData(double(1.0), GAUSS);
-    QuickSort bs;
-    bs.setData(data);
-//    bs.print();
-//    std::cout << "\n\n\n";
-    bs.ori();
-//    bs.print();
-//    std::cout << "\n\n\n";
-    std::cout << "Is sorted? " << bs.isSorted() << "\n";
-    std::cout << "Run time: " << bs.getTime() << "s\n";
-    std::cout << "Swap times: " << bs.getSwapTimes() << "\n";
-    std::cout << "Cmp times: " << bs.getCmpTimes() << "\n";
-    return 0;
+//    BubbleSort bs;
+//    InsertSort is;
+//    SelectSort ss;
+    QuickSort qs;
+//    std::cout <<"Bubble Sort:\n";
+//    bs.test(data);
+//    std::cout <<"\n\n\n";
+//    std::cout <<"Insert Sort:\n";
+//    is.test(data);
+//    std::cout <<"\n\n\n";
+//    std::cout <<"Select Sort:\n";
+//    ss.test(data);
+//    std::cout <<"\n\n\n";
+//    std::cout <<"QuickSort:\n";
+//    qs.test(data);
+//    std::cout <<"\n\n\n";
+//    return 0;
+//    Dataset d;
+//    d.setDataSize(4096);
+//    d.setData(double(1.0), UNIFORM);
+//    BubbleSort bs;
+//    bs.test(d);
+//    qs.setData(data);
+//    qs.ori();
+//    qs.printLog();
+//
+    qs.setData(data);
+    qs.improved();
+    qs.printLog();
+    getchar();
 }

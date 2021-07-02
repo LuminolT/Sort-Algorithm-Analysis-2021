@@ -65,3 +65,27 @@ ull Sort::getCmpTimes() {
 ull Sort::getSwapTimes() {
     return swapTimes;
 }
+
+void Sort::clearTimes() {
+    this->swapTimes = 0;
+    this->cmpTimes = 0;
+}
+
+void Sort::printLog(){
+    std::cout << "Is sorted? " << this->isSorted() << "\n";
+    std::cout << "Run time: " << this->getTime() << "s\n";
+    std::cout << "Swap times: " << this->getSwapTimes() << "\n";
+    std::cout << "Cmp times: " << this->getCmpTimes() << "\n";
+}
+
+void Sort::test(Dataset &data){
+    std::cout << "Original Algorithm Test:\n";
+    setData(data);
+    ori();
+    printLog();
+    clearTimes();
+    std::cout << "Improved Algorithm Test:\n";
+    setData(data);
+    improved();
+    printLog();
+}

@@ -23,6 +23,9 @@ public:
     void addCmpTimes();
     ull getSwapTimes();
     ull getCmpTimes();
+    void clearTimes();
+    void printLog();
+    void test(Dataset &data);
 protected:
     std::vector<var> data;
     int size;

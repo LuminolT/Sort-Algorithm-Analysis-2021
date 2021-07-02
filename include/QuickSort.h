@@ -12,6 +12,7 @@ public:
     void ori() override;
     void Qs(int left,int right);
 
+
     void improved() override;
     std::vector<int> getPartition(int low, int high);
     void getMedianOfThreePivot(int low,int high);

@@ -5,16 +5,15 @@
 #include "SelectSort.h"
 #include "Sort.h"
 #include "QuickSort.h"
-
 int main() {
     Dataset data;//
-    data.setDataSize(214788);
+    data.setDataSize(10000);
     data.setData(double(1.0), GAUSS);
-    QuickSort bs;
+    SelectSort bs;
     bs.setData(data);
 //    bs.print();
 //    std::cout << "\n\n\n";
-    bs.ori();
+    bs.improved();
 //    bs.print();
 //    std::cout << "\n\n\n";
     std::cout << "Is sorted? " << bs.isSorted() << "\n";

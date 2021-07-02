@@ -29,7 +29,7 @@ void QuickSort :: Qs(int left, int right)
     Qs(left, i - 1);
     Qs( i + 1, right);
 }
-void QuickSort::ori()
+void QuickSort::origin()
 {
     setStartTime();
     Qs(0,size);

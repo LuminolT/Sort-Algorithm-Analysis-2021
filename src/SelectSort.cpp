@@ -4,7 +4,7 @@
 
 #include "SelectSort.h"
 
-void SelectSort::ori() {
+void SelectSort::origin() {
     var temp;
     int i, j, k=0;
     setStartTime();

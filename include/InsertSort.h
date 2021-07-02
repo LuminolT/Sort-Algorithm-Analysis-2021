@@ -9,7 +9,7 @@
 
 class InsertSort : public Sort{
 public:
-    void ori() override;
+    void origin() override;
     void improved() override;
 };
 

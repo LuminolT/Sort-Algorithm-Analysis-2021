@@ -34,7 +34,7 @@ std::string Sort::isSorted() {
     return "Yep";
 }
 
-void Sort::ori(){}
+void Sort::origin(){}
 void Sort::improved() {}
 
 void Sort::setStartTime() {

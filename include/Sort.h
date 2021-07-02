@@ -10,7 +10,7 @@
 
 class Sort {
 public:
-    virtual void ori();             //original sort algorithm
+    virtual void origin();             //original sort algorithm
     virtual void improved();        //improved sort algorithm
     void setData(Dataset &data);    //set the data
     void print();                   //print the data

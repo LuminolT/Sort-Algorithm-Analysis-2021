@@ -5,7 +5,7 @@
 #include "InsertSort.h"
 
 using namespace std;
-void InsertSort::ori(){
+void InsertSort::origin(){
     setStartTime();
         for(int i = 1; i < size; i++) //第一个元素作为基准元素，从第二个元素开始把其插到正确的位置
         {

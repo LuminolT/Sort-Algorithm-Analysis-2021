@@ -4,7 +4,7 @@
 
 #include "BubbleSort.h"
 
-void BubbleSort::ori() {
+void BubbleSort::origin() {
     var temp; // 定义一个局部变量，数据类型与形式数据类型相同
     int i, j;
     setStartTime();

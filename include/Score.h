@@ -23,9 +23,6 @@ struct Score {
     bool operator>=(const Score &x) const {
         return Total >= x.Total;
     }
-    bool operator!=(const Score &x) const {
-        return Total != x.Total;
-    }
     friend std::ostream &operator<<(std::ostream& os, const Score &s) {
         os << s.ID << ' ' << s.Total << '\n';
         return os;

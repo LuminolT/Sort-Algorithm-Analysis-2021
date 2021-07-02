@@ -35,11 +35,11 @@ void SelectSort::improved() {
     int k = size;
     var temp;
     setStartTime();
-    for (int i = 0; i < k; i++,k--)
+    for (int i = 0; i < k; ++i,--k)
     {
         min = i;
         max = i;    //find the subscript of the smallest and the largest remaining element
-        for (j = i+1; j < k; j++)
+        for (j = i+1; j < k; ++j)
         {
             addCmpTimes();
             if (data[j] < data[min])

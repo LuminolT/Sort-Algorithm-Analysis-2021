@@ -10,6 +10,7 @@ PlanB：学有余力，改成Tex
 
 ![image](https://user-images.githubusercontent.com/48964589/123812733-e93ce980-d926-11eb-9b23-eb8a2d56dbdf.png)
 
+一次测试结果，发现析构有问题
 ```
 ----------------Latest Run Log----------------
 UNIFORM

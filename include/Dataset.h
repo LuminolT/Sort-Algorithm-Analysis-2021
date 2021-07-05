@@ -37,6 +37,7 @@ protected:
  */
 
 template<typename T> void Dataset::setData(const T &x,DISTRITYPE dis){
+    data.clear();   //init
     switch(dis){
         case UNIFORM:   getUniformRealDistribution(x); break;
         case GAUSS:     getGaussDistribution(x); break;

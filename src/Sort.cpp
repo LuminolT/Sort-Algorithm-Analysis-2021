@@ -38,6 +38,7 @@ void Sort::origin(){}
 void Sort::improved() {}
 
 void Sort::setStartTime() {
+    clearTimes();
     start = clock();
 }
 

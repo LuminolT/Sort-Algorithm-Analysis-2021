@@ -1,7 +1,7 @@
 #include <iostream>
 #include "test.h"
 
-int size[] = {8};
+int size[] = {8, 1024};
 
 int main() {
     std::cout << "UNIFORM\n";
@@ -10,7 +10,7 @@ int main() {
         std::cout << i << '\n';
         test.startTest(i, UNIFORM);
     }
-    std::cout << "GAUSS\n";
+//    std::cout << "GAUSS\n";
 //    for(auto i : size) {
 //        std::cout << i << '\n';
 //        test.startTest(i, GAUSS);

@@ -4,24 +4,28 @@
 
 #include "QuickSort.h"
 using namespace std;
-void QuickSort :: Qs(int left, int right)
-{
-    if(left>=right)
-    {
+void QuickSort :: Qs(int left, int right) {
+    addCmpTimes();
+    if(left>=right){
         return;
     }
     var x;
+    addSwapTimes();
     int i = left;
     int j = right;
     x = data[left];
-    while (i < j)
-    {
+    addCmpTimes();
+    while (i < j) {
+        addCmpTimes();
         while(i < j && data[j]>=x)
             j--;
+        addCmpTimes();
         if(i < j)
             data[i++] = data[j];
+        addCmpTimes();
         while(i < j && data[i]<x)
             i++;
+        addCmpTimes();
         if(i < j)
             data[j--] = data[i];
     }
@@ -29,37 +33,31 @@ void QuickSort :: Qs(int left, int right)
     Qs(left, i - 1);
     Qs( i + 1, right);
 }
-void QuickSort::origin()
-{
+void QuickSort::origin() {
     setStartTime();
     Qs(0,size);
     setEndTime();
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 void QuickSort::getMedianOfThreePivot(int low, int high)
 {
 
     int mid = (low + high) / 2;
-
-    if (data[low] < data[mid])
+    addCmpTimes();
+    if (data[low] < data[mid]) {
+        addSwapTimes();
         swap(data[low], data[mid]);
-    if (data[high] < data[mid])
+    }
+    addCmpTimes();
+    if (data[high] < data[mid]) {
+        addSwapTimes();
         swap(data[high], data[mid]);
-
-    if (data[high] < data[low])
+    }
+    addCmpTimes();
+    if (data[high] < data[low]) {
+        addSwapTimes();
         swap(data[high], data[low]);
+    }
 }
 
 vector<int> QuickSort ::getPartition(int low, int high)
@@ -76,12 +74,16 @@ vector<int> QuickSort ::getPartition(int low, int high)
 
 
     keyVal = data[low];
+    addCmpTimes();
     while (low < high)
     {
+        addCmpTimes();
         while (low < high && data[high] >= keyVal)
         {
+            addCmpTimes();
             if (data[high] == keyVal)
             {
+                addSwapTimes();
                 swap(data[high], data[right]);
                 --right;
                 ++rightCommonNum;
@@ -89,10 +91,13 @@ vector<int> QuickSort ::getPartition(int low, int high)
             --high;
         }
         data[low] = data[high];
+        addCmpTimes();
         while (low < high && data[low] <= keyVal)
         {
+            addCmpTimes();
             if (data[low] == keyVal)
             {
+                addSwapTimes();
                 swap(data[low], data[left]);
                 ++left;
                 ++leftCommonNum;
@@ -105,14 +110,20 @@ vector<int> QuickSort ::getPartition(int low, int high)
 
     for (int i = low -1,j = tmpLow;j < left;j++)
     {
-        if (data[i] != keyVal)
+        addCmpTimes();
+        if (data[i] != keyVal) {
+            addSwapTimes();
             swap(data[j], data[i]);
+        }
         --i;
     }
     for (int i = low + 1, j = tmpHeight; j > right; j--)
     {
-        if (data[i] != keyVal)
+        addCmpTimes();
+        if (data[i] != keyVal) {
+            addSwapTimes();
             swap(data[j], data[i]);
+        }
         ++i;
     }
     int partitionLeftIndex = low - 1 - leftCommonNum;
@@ -131,8 +142,10 @@ void QuickSort::insertSort(int low, int high)
     {
         key = data[i];
         int j = i - 1;
+        addCmpTimes();
         while (j >= low && key < data[j])
         {
+            addSwapTimes();
             data[j + 1] = data[j];
             j--;
         }
@@ -154,8 +167,7 @@ void QuickSort ::Qsi(int low, int high) {
     }
 }
 
-void QuickSort::improved()//
-{
+void QuickSort::improved() {
     setStartTime();
     Qsi(0,size);
     setEndTime();

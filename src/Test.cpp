@@ -33,7 +33,7 @@ void Test::testImproved(){
     bs.improved();
     is.improved();
     ss.improved();
-    qs.improved();
+    qs.improved_plus();
 }
 
 void Test::printAllLogs(){

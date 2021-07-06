@@ -18,7 +18,8 @@ public:
     void getMedianOfThreePivot(int low,int high);
     void Qsi(int low,int high);
     void insertSort(int low,int high);
-
+    void improved_plus();
+    void Qsii(int low , int high);
 };
 
 

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Computer_Programing_Training</class>
+ <widget class="QMainWindow" name="Computer_Programing_Training">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+    </font>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <property name="leftMargin">
+       <number>11</number>
+      </property>
+      <property name="topMargin">
+       <number>11</number>
+      </property>
+      <property name="rightMargin">
+       <number>11</number>
+      </property>
+      <property name="bottomMargin">
+       <number>11</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Computer Programming Training (A gourp of Cyberspace Security)</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>C.Chen (20123069), Y.Ma (20123067), Z.Yang (20123068), Y.Lu (20123070), J.Song (20123071)</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Sorting Algorithm</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Sorting Visualization</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>MIDI Program</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QPushButton" name="Button_BubbleSort_Algo">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Bubble Sort</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Button_SelectSort_Algo">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Select Sort</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Button_InsertSort_Algo">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Insert Sort</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Button_QuickSort_Algo">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Quicksort</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="text">
+             <string>Run ALL and Export</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QPushButton" name="Button_BubbleSort_Visual">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Bubble Sort</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Button_SelectSort_Visual">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Select Sort</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Button_InsertSort_Visual">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Insert Sort</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Button_QuickSort_Visual">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Quicksort</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QPushButton" name="Button_Piano_Play">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Piano play: Mixue Icecream Tea</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Button_Keyboard_Piano">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Keyboard Piano</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Common setting: Set random vector-&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Button_Set">
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>Set!</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>669</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

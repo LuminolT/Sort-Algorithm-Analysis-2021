@@ -20,7 +20,7 @@ set(CMAKE_EXE_LINKER_FLAGS "-Wl,--stack,${stack_size}")
 
 aux_source_directory(. ALL_SRCS)
 add_subdirectory(src)
-add_executable(Sort-Algorithm-Analysis-2021 ${ALL_SRCS} ui/mainwindow.cpp ui/mainwindow.cpp ui/mainwindow.h ui/mainwindow.ui)
+add_executable(Sort-Algorithm-Analysis-2021 ${ALL_SRCS} ui/mainwindow.cpp ui/mainwindow.cpp ui/mainwindow.h ui/mainwindow.ui ui/sortwindow.cpp ui/sortwindow.h ui/sortwindow.ui)
 #
 target_link_libraries(Sort-Algorithm-Analysis-2021 Sort)
 

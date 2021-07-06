@@ -172,3 +172,48 @@ void QuickSort::improved() {
     Qsi(0,size);
     setEndTime();
 }
+
+void QuickSort::Qsii(int low, int high) {
+    if (low >= high) return;
+    if (high - low <= 10) {
+        for (auto i = low; i <= high; i++) {
+            auto key = data[i];
+            auto j = i - 1;
+            while (j >= low && key < data[j]) {
+                addCmpTimes();
+                addSwapTimes();
+                data[j + 1] = data[j];
+                j--;
+            }
+            data[j + 1] = key;
+        }
+    } else {
+        addSwapTimes();
+        swap(data[low], data[low + rand() % (high - low + 1)]);
+        auto key = data[low];
+        auto i = low, j = low;
+        auto k = high;
+        while (i <= k) {
+            addCmpTimes();
+            if (data[i] < key) {
+                swap(data[i], data[j]);
+                addSwapTimes();
+                i++, j++;
+            } else if (data[i] > key) {
+                swap(data[i], data[k]);
+                addSwapTimes();
+                k--;
+            } else {
+                i++;
+            }
+        }
+        Qsii(low, j);
+        Qsii(k + 1, high);
+    }
+}
+
+void QuickSort::improved_plus() {
+    setStartTime();
+    Qsii(0, size);
+    setEndTime();
+}

@@ -5,6 +5,7 @@
 
 int Test::startTest(int size, DISTRITYPE dis){
     data0.setDataSize(size);
+    // set double data, need to be improved later
     data0.setData(double(0), dis);
     setAllData();
     testOrigin();

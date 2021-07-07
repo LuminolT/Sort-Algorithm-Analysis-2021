@@ -1,28 +1,22 @@
-//
-// Created by admin on 2021/7/6.
-//
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
 
-#ifndef SORT_ALGORITHM_ANALYSIS_2021_SORTWINDOW_H
-#define SORT_ALGORITHM_ANALYSIS_2021_SORTWINDOW_H
+#include <QMainWindow>
 
-#include <QWidget>
+namespace Ui {
+    class MainWindow;
+}
 
-
-QT_BEGIN_NAMESPACE
-namespace Ui { class sortwindow; }
-QT_END_NAMESPACE
-
-class sortwindow : public QWidget {
+class MainWindow : public QMainWindow
+{
 Q_OBJECT
 
 public:
-    explicit sortwindow(QWidget *parent = nullptr);
-
-    ~sortwindow() override;
+    explicit MainWindow(QWidget *parent = 0);
+    ~MainWindow();
 
 private:
-    Ui::sortwindow *ui;
+    Ui::MainWindow *ui;
 };
 
-
-#endif //SORT_ALGORITHM_ANALYSIS_2021_SORTWINDOW_H
+#endif // MAINWINDOW_H

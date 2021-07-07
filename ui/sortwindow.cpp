@@ -7,13 +7,15 @@
 #include "sortwindow.h"
 #include "ui_sortwindow.h"
 
-
-sortwindow::sortwindow(QWidget *parent) :
-        QWidget(parent), ui(new Ui::sortwindow) {
+MainWindow::MainWindow(QWidget *parent) :
+        QMainWindow(parent),
+        ui(new Ui::MainWindow)
+{
     ui->setupUi(this);
 }
 
-sortwindow::~sortwindow() {
+MainWindow::~MainWindow()
+{
     delete ui;
 }
 
